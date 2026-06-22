@@ -1,0 +1,101 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Copyright (c) 2025 Advanced Micro Devices, Inc. All rights
+# reserved.
+# This file is distributed under the same license as the rocSHMEM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: rocSHMEM 3.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-22 13:38-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../compile_and_run.rst:-1
+msgid "Information on how to compile and run rocSHMEM applications."
+msgstr ""
+
+#: ../../compile_and_run.rst:-1
+msgid "rocSHMEM, ROCm, library, API, compile, link, hipcc"
+msgstr ""
+
+#: ../../compile_and_run.rst:9
+msgid "Compiling and running rocSHMEM applications"
+msgstr ""
+
+#: ../../compile_and_run.rst:11
+msgid "This topic explains how to compile and run rocSHMEM applications."
+msgstr ""
+
+#: ../../compile_and_run.rst:14
+msgid "Compiling and linking with rocSHMEM"
+msgstr ""
+
+#: ../../compile_and_run.rst:16
+msgid ""
+"rocSHMEM is a library that can be statically linked to your application "
+"during compilation with ``hipcc``. For more information, see :doc:`HIPCC "
+"<hipcc:index>`."
+msgstr ""
+
+#: ../../compile_and_run.rst:18
+msgid ""
+"When compiling your application with ``hipcc``, you must include the "
+"rocSHMEM header files and the rocSHMEM library. Because rocSHMEM depends "
+"on MPI (Message Passing Interface), you must manually add the arguments "
+"for MPI linkage instead of using ``mpicc``."
+msgstr ""
+
+#: ../../compile_and_run.rst:21
+msgid ""
+"When using ``hipcc`` directly without a build system, it's recommended to"
+" perform the compilation and linking steps separately."
+msgstr ""
+
+#: ../../compile_and_run.rst:23
+msgid ""
+"Example compile and link commands are provided at the top of the example "
+"files in the ``examples`` directory:"
+msgstr ""
+
+#: ../../compile_and_run.rst:39
+msgid ""
+"If your project uses CMake, see `Using CMake with AMD ROCm "
+"<https://rocmdocs.amd.com/en/latest/conceptual/cmake-packages.html>`_."
+msgstr ""
+
+#: ../../compile_and_run.rst:43
+msgid "Running a rocSHMEM application"
+msgstr ""
+
+#: ../../compile_and_run.rst:45
+msgid ""
+"Applications using rocSHMEM typically deploy multiple processes, usually "
+"one per GPU. The MPI launcher, for example, ``mpiexec`` with Open MPI, is"
+" used to start the required number of processes. For example, to launch "
+"two ``getmem`` example processes (available when compiled from source):"
+msgstr ""
+
+#: ../../compile_and_run.rst:53
+msgid ""
+"See the `Open MPI documentation <https://docs.open-mpi.org/en/main/>`_ "
+"for more information about ``mpiexec`` command line parameters."
+msgstr ""
+
+#: ../../compile_and_run.rst:57
+msgid ""
+"Some systems may have multiple MPI installations, some of which do not "
+"have GPU support enabled. You must use the ``mpiexec`` from the expected "
+"MPI library, especially when using the MPI built by yourself as part of "
+":ref:`install-dependencies`."
+msgstr ""
+

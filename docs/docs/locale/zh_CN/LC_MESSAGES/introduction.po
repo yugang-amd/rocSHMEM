@@ -1,0 +1,97 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Copyright (c) 2025 Advanced Micro Devices, Inc. All rights
+# reserved.
+# This file is distributed under the same license as the rocSHMEM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: rocSHMEM 3.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-22 13:38-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../introduction.rst:-1
+msgid ""
+"rocSHMEM intra-kernel networking runtime for AMD GPUs on the ROCm "
+"platform."
+msgstr ""
+
+#: ../../introduction.rst:-1
+msgid "rocSHMEM, API, ROCm, documentation, HIP, Networking, Communication"
+msgstr ""
+
+#: ../../introduction.rst:9
+msgid "What is rocSHMEM?"
+msgstr ""
+
+#: ../../introduction.rst:11
+msgid ""
+"The ROCm OpenSHMEM (rocSHMEM) is an intra-kernel networking library that "
+"provides GPU-centric networking through an OpenSHMEM-like interface. It "
+"simplifies application code complexity and enables finer communication "
+"and computation overlap than traditional host-driven networking. rocSHMEM"
+" uses a single symmetric heap allocated on GPU memories."
+msgstr ""
+
+#: ../../introduction.rst:14
+msgid "The rocSHMEM programming model"
+msgstr ""
+
+#: ../../introduction.rst:16
+msgid ""
+"Defining how OpenSHMEM applications interact with GPUs remains an ongoing"
+" active discussion within the OpenSHMEM community, and the OpenSHMEM "
+"specification has yet to coalesce on this topic. rocSHMEM extends beyond "
+"the OpenSHMEM specification to add semantics that support GPU kernel "
+"communication while maintaining close resemblance to the original "
+"OpenSHMEM specification semantics."
+msgstr ""
+
+#: ../../introduction.rst:23
+msgid ""
+"Applications using :doc:`HIP <hip:index>` can interface with rocSHMEM. "
+"Using the HIP programming model, rocSHMEM provides ``__host__`` APIs for "
+"host code, and ``__device__`` APIs for GPU kernels. Device APIs without "
+"special suffixes or infixes , for example, ``_wg`` or ``_wave``, must be "
+"called by a single thread. GPU specific ``_wg`` and ``_wave`` APIs are "
+"designed to be called by multiple GPU threads and will block until the "
+"calling scope completes. These APIs can be called in divergent code "
+"paths, but this is not recommended."
+msgstr ""
+
+#: ../../introduction.rst:34
+msgid "Wavefront APIs"
+msgstr ""
+
+#: ../../introduction.rst:35
+msgid ""
+"Wavefront APIs are those with the ``_wave`` suffix. The parameters in "
+"which these routines are called must be the same for every thread in the "
+"wavefront. The behavior is undefined if any thread calls these routines "
+"with different parameters. These APIs will block until the calling "
+"wavefront is complete."
+msgstr ""
+
+#: ../../introduction.rst:41
+msgid "Workgroup APIs"
+msgstr ""
+
+#: ../../introduction.rst:42
+msgid ""
+"The workgroup APIs have the ``_wg`` suffix or ``_wg_`` infix. The "
+"parameters in which these routines are called must be the same for every "
+"thread in the workgroup. The behavior is undefined if any thread calls "
+"these routines with different parameters. These APIs will block until the"
+" calling workgroup is complete."
+msgstr ""
+

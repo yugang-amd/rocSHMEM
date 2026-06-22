@@ -1,0 +1,2138 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Copyright (c) 2025 Advanced Micro Devices, Inc. All rights
+# reserved.
+# This file is distributed under the same license as the rocSHMEM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: rocSHMEM 3.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-22 13:38-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../api/amo.rst:-1 ../../api/coll.rst:-1 ../../api/ctx.rst:-1
+#: ../../api/init.rst:-1 ../../api/memory_management.rst:-1
+#: ../../api/memory_ordering.rst:-1 ../../api/pt2pt_sync.rst:-1
+#: ../../api/rma.rst:-1 ../../api/sigops.rst:-1 ../../api/teams.rst:-1
+msgid ""
+"rocSHMEM intra-kernel networking runtime for AMD dGPUs on the ROCm "
+"platform."
+msgstr ""
+
+#: ../../api/amo.rst:-1 ../../api/coll.rst:-1 ../../api/ctx.rst:-1
+#: ../../api/init.rst:-1 ../../api/memory_management.rst:-1
+#: ../../api/memory_ordering.rst:-1 ../../api/pt2pt_sync.rst:-1
+#: ../../api/rma.rst:-1 ../../api/sigops.rst:-1 ../../api/teams.rst:-1
+msgid "rocSHMEM, API, ROCm, documentation, HIP, Networking, Communication"
+msgstr ""
+
+#: ../../api/amo.rst:9
+msgid "Atomic memory operations"
+msgstr ""
+
+#: ../../api/amo.rst:11
+msgid ""
+"You can call these functions from divergent control paths at the per-"
+"thread level."
+msgstr ""
+
+#: ../../api/amo.rst:14
+msgid "ROSHMEM_ATOMIC_FETCH"
+msgstr ""
+
+#: ../../api/amo.rst ../../api/coll.rst ../../api/ctx.rst ../../api/init.rst
+#: ../../api/memory_management.rst ../../api/memory_ordering.rst
+#: ../../api/pt2pt_sync.rst ../../api/rma.rst ../../api/sigops.rst
+#: ../../api/teams.rst
+msgid "Parameters"
+msgstr ""
+
+#: ../../api/amo.rst:18 ../../api/amo.rst:35 ../../api/amo.rst:54
+#: ../../api/amo.rst:76 ../../api/amo.rst:96 ../../api/amo.rst:115
+#: ../../api/amo.rst:134 ../../api/amo.rst:154 ../../api/amo.rst:174
+#: ../../api/amo.rst:194 ../../api/amo.rst:214 ../../api/amo.rst:234
+#: ../../api/amo.rst:254 ../../api/amo.rst:274 ../../api/coll.rst:46
+#: ../../api/coll.rst:60 ../../api/memory_ordering.rst:19
+#: ../../api/memory_ordering.rst:32 ../../api/memory_ordering.rst:44
+#: ../../api/rma.rst:33 ../../api/rma.rst:59 ../../api/rma.rst:95
+#: ../../api/rma.rst:121 ../../api/rma.rst:148 ../../api/rma.rst:183
+#: ../../api/sigops.rst:27 ../../api/sigops.rst:58
+msgid "Context with which to perform this operation."
+msgstr ""
+
+#: ../../api/amo.rst:19 ../../api/amo.rst:36 ../../api/amo.rst:55
+#: ../../api/amo.rst:77 ../../api/amo.rst:97 ../../api/amo.rst:116
+#: ../../api/amo.rst:135 ../../api/amo.rst:155 ../../api/amo.rst:175
+#: ../../api/amo.rst:195 ../../api/amo.rst:215 ../../api/amo.rst:235
+#: ../../api/amo.rst:255 ../../api/amo.rst:275 ../../api/coll.rst:92
+#: ../../api/coll.rst:112 ../../api/coll.rst:134 ../../api/coll.rst:156
+#: ../../api/coll.rst:175 ../../api/coll.rst:198 ../../api/coll.rst:215
+#: ../../api/rma.rst:34 ../../api/rma.rst:60 ../../api/rma.rst:75
+#: ../../api/rma.rst:96 ../../api/rma.rst:149 ../../api/rma.rst:164
+#: ../../api/sigops.rst:28 ../../api/sigops.rst:59
+msgid "Destination address. Must be an address on the symmetric heap."
+msgstr ""
+
+#: ../../api/amo.rst:20 ../../api/amo.rst:38 ../../api/amo.rst:58
+#: ../../api/amo.rst:79 ../../api/amo.rst:98 ../../api/amo.rst:117
+#: ../../api/amo.rst:137 ../../api/amo.rst:157 ../../api/amo.rst:177
+#: ../../api/amo.rst:197 ../../api/amo.rst:217 ../../api/amo.rst:237
+#: ../../api/amo.rst:257 ../../api/amo.rst:277 ../../api/rma.rst:37
+#: ../../api/rma.rst:63 ../../api/rma.rst:78 ../../api/rma.rst:98
+#: ../../api/rma.rst:125 ../../api/rma.rst:152 ../../api/rma.rst:167
+#: ../../api/rma.rst:185 ../../api/sigops.rst:34 ../../api/sigops.rst:65
+msgid "PE of the remote process."
+msgstr ""
+
+#: ../../api/amo.rst ../../api/coll.rst ../../api/ctx.rst ../../api/init.rst
+#: ../../api/memory_management.rst ../../api/memory_ordering.rst
+#: ../../api/pt2pt_sync.rst ../../api/rma.rst ../../api/sigops.rst
+#: ../../api/teams.rst
+msgid "Returns"
+msgstr ""
+
+#: ../../api/amo.rst:22
+msgid "The value of ``dest``."
+msgstr ""
+
+#: ../../api/amo.rst:24
+msgid ""
+"**Description:** This function atomically returns the value of ``dest`` "
+"to the calling PE."
+msgstr ""
+
+#: ../../api/amo.rst:27 ../../api/amo.rst:45 ../../api/amo.rst:87
+msgid "Valid ``TYPENAME`` and ``TYPE`` values are listed in EXTENDED_AMO_TYPES_."
+msgstr ""
+
+#: ../../api/amo.rst:31
+msgid "SHMEM_ATOMIC_SET"
+msgstr ""
+
+#: ../../api/amo.rst:37
+msgid "The value to be atomically set."
+msgstr ""
+
+#: ../../api/amo.rst:40 ../../api/amo.rst:119 ../../api/amo.rst:159
+#: ../../api/amo.rst:239 ../../api/amo.rst:279 ../../api/coll.rst:18
+#: ../../api/coll.rst:31 ../../api/coll.rst:47 ../../api/coll.rst:62
+#: ../../api/coll.rst:79 ../../api/coll.rst:97 ../../api/coll.rst:116
+#: ../../api/coll.rst:141 ../../api/coll.rst:161 ../../api/coll.rst:180
+#: ../../api/coll.rst:203 ../../api/ctx.rst:40 ../../api/ctx.rst:51
+#: ../../api/init.rst:16 ../../api/init.rst:17 ../../api/init.rst:31
+#: ../../api/init.rst:32 ../../api/init.rst:44 ../../api/init.rst:45
+#: ../../api/init.rst:55 ../../api/init.rst:56 ../../api/init.rst:108
+#: ../../api/init.rst:130 ../../api/memory_management.rst:31
+#: ../../api/memory_ordering.rst:21 ../../api/memory_ordering.rst:33
+#: ../../api/memory_ordering.rst:47 ../../api/pt2pt_sync.rst:19
+#: ../../api/pt2pt_sync.rst:38 ../../api/pt2pt_sync.rst:108
+#: ../../api/rma.rst:38 ../../api/rma.rst:65 ../../api/rma.rst:81
+#: ../../api/rma.rst:100 ../../api/rma.rst:127 ../../api/rma.rst:154
+#: ../../api/rma.rst:170 ../../api/sigops.rst:35 ../../api/sigops.rst:66
+#: ../../api/sigops.rst:87
+msgid "None."
+msgstr ""
+
+#: ../../api/amo.rst:42
+msgid ""
+"**Description:** This function atomically sets the value ``value`` to "
+"``dest`` on ``pe``."
+msgstr ""
+
+#: ../../api/amo.rst:48
+msgid "SHMEM_ATOMIC_COMPARE_SWAP"
+msgstr ""
+
+#: ../../api/amo.rst:56
+msgid "The value to be compare with."
+msgstr ""
+
+#: ../../api/amo.rst:57 ../../api/amo.rst:78
+msgid "The value to be atomically swapped."
+msgstr ""
+
+#: ../../api/amo.rst:60 ../../api/amo.rst:81 ../../api/amo.rst:100
+#: ../../api/amo.rst:139 ../../api/amo.rst:179 ../../api/amo.rst:219
+#: ../../api/amo.rst:259
+msgid "The old value of ``dest``."
+msgstr ""
+
+#: ../../api/amo.rst:62
+msgid ""
+"**Description:** This function atomically compares the value in ``dest`` "
+"with ``cond``. If they are equal, it stores ``value`` in ``dest``. The "
+"operation returns the older value of ``dest`` to the calling PE. The "
+"operation is blocking."
+msgstr ""
+
+#: ../../api/amo.rst:67 ../../api/amo.rst:106 ../../api/amo.rst:125
+#: ../../api/amo.rst:145
+msgid "Valid ``TYPENAME`` and ``TYPE`` values are listed in STANDARD_AMO_TYPES_."
+msgstr ""
+
+#: ../../api/amo.rst:70
+msgid "SHMEM_ATOMIC_SWAP"
+msgstr ""
+
+#: ../../api/amo.rst:83
+msgid ""
+"**Description:** This function atomically swaps the value ``val`` with "
+"``dest`` on ``pe``. The operation is blocking."
+msgstr ""
+
+#: ../../api/amo.rst:90
+msgid "SHMEM_ATOMIC_FETCH_INC"
+msgstr ""
+
+#: ../../api/amo.rst:102 ../../api/amo.rst:121
+msgid ""
+"**Description:** This function atomically adds ``1`` to ``dest`` on "
+"``pe``. The operation is blocking."
+msgstr ""
+
+#: ../../api/amo.rst:109
+msgid "SHMEM_ATOMIC_INC"
+msgstr ""
+
+#: ../../api/amo.rst:128
+msgid "SHMEM_ATOMIC_FETCH_ADD"
+msgstr ""
+
+#: ../../api/amo.rst:136 ../../api/amo.rst:156
+msgid "The value to be atomically added."
+msgstr ""
+
+#: ../../api/amo.rst:141 ../../api/amo.rst:161
+msgid ""
+"**Description:** This function atomically adds ``value`` to ``dest`` on "
+"``pe``. The operation is blocking."
+msgstr ""
+
+#: ../../api/amo.rst:148
+msgid "SHMEM_ATOMIC_ADD"
+msgstr ""
+
+#: ../../api/amo.rst:165
+msgid "Valid ``TYPENAME`` and ``TYPE`` values can be seen in STANDARD_AMO_TYPES_."
+msgstr ""
+
+#: ../../api/amo.rst:168
+msgid "SHMEM_ATOMIC_FETCH_AND"
+msgstr ""
+
+#: ../../api/amo.rst:176 ../../api/amo.rst:196
+msgid "The value to be atomically ``AND``."
+msgstr ""
+
+#: ../../api/amo.rst:181 ../../api/amo.rst:201
+msgid ""
+"**Description:** This function atomically bitwise-and ``value`` to the "
+"value at ``dest`` on ``pe``. The operation is blocking."
+msgstr ""
+
+#: ../../api/amo.rst:185 ../../api/amo.rst:205 ../../api/amo.rst:225
+#: ../../api/amo.rst:245 ../../api/amo.rst:265 ../../api/amo.rst:285
+msgid "Valid ``TYPENAME`` and ``TYPE`` values are listed in BITWISE_AMO_TYPES_."
+msgstr ""
+
+#: ../../api/amo.rst:188
+msgid "SHMEM_ATOMIC_AND"
+msgstr ""
+
+#: ../../api/amo.rst:199 ../../api/teams.rst:83
+msgid "None"
+msgstr ""
+
+#: ../../api/amo.rst:208
+msgid "SHMEM_ATOMIC_FETCH_OR"
+msgstr ""
+
+#: ../../api/amo.rst:216 ../../api/amo.rst:236
+msgid "The value to be atomically ``OR``."
+msgstr ""
+
+#: ../../api/amo.rst:221 ../../api/amo.rst:241
+msgid ""
+"**Description:** This function atomically bitwise-or ``value`` to the "
+"value at ``dest`` on ``pe``. The operation is blocking."
+msgstr ""
+
+#: ../../api/amo.rst:228
+msgid "SHMEM_ATOMIC_OR"
+msgstr ""
+
+#: ../../api/amo.rst:248
+msgid "SHMEM_ATOMIC_FETCH_XOR"
+msgstr ""
+
+#: ../../api/amo.rst:256 ../../api/amo.rst:276
+msgid "The value to be atomically ``XOR``."
+msgstr ""
+
+#: ../../api/amo.rst:261 ../../api/amo.rst:281
+msgid ""
+"**Description:** This function atomically bitwise-xor ``value`` to the "
+"value at ``dest`` on ``pe``. The operation is blocking."
+msgstr ""
+
+#: ../../api/amo.rst:268
+msgid "SHMEM_ATOMIC_XOR"
+msgstr ""
+
+#: ../../api/amo.rst:288
+msgid "Supported AMO data types"
+msgstr ""
+
+#: ../../api/amo.rst:292
+msgid "Standard AMO Data Types"
+msgstr ""
+
+#: ../../api/amo.rst:296 ../../api/amo.rst:342 ../../api/amo.rst:394
+#: ../../api/coll.rst:237 ../../api/rma.rst:203
+msgid "TYPE"
+msgstr ""
+
+#: ../../api/amo.rst:297 ../../api/amo.rst:343 ../../api/amo.rst:395
+#: ../../api/coll.rst:238 ../../api/rma.rst:204
+msgid "TYPENAME"
+msgstr ""
+
+#: ../../api/amo.rst:298 ../../api/amo.rst:344 ../../api/amo.rst:396
+#: ../../api/coll.rst:240 ../../api/rma.rst:205
+msgid "Supported"
+msgstr ""
+
+#: ../../api/amo.rst:299 ../../api/amo.rst:300 ../../api/amo.rst:351
+#: ../../api/amo.rst:352 ../../api/coll.rst:253 ../../api/coll.rst:254
+#: ../../api/rma.rst:224 ../../api/rma.rst:225
+msgid "int"
+msgstr ""
+
+#: ../../api/amo.rst:301 ../../api/amo.rst:304 ../../api/amo.rst:307
+#: ../../api/amo.rst:310 ../../api/amo.rst:313 ../../api/amo.rst:316
+#: ../../api/amo.rst:319 ../../api/amo.rst:322 ../../api/amo.rst:325
+#: ../../api/amo.rst:328 ../../api/amo.rst:331 ../../api/amo.rst:334
+#: ../../api/amo.rst:347 ../../api/amo.rst:350 ../../api/amo.rst:353
+#: ../../api/amo.rst:356 ../../api/amo.rst:359 ../../api/amo.rst:362
+#: ../../api/amo.rst:365 ../../api/amo.rst:368 ../../api/amo.rst:371
+#: ../../api/amo.rst:374 ../../api/amo.rst:377 ../../api/amo.rst:380
+#: ../../api/amo.rst:383 ../../api/amo.rst:386 ../../api/amo.rst:399
+#: ../../api/amo.rst:402 ../../api/amo.rst:405 ../../api/amo.rst:408
+#: ../../api/amo.rst:411 ../../api/amo.rst:414 ../../api/amo.rst:417
+#: ../../api/coll.rst:252 ../../api/coll.rst:256 ../../api/coll.rst:260
+#: ../../api/coll.rst:264 ../../api/coll.rst:328 ../../api/coll.rst:332
+#: ../../api/rma.rst:208 ../../api/rma.rst:211 ../../api/rma.rst:217
+#: ../../api/rma.rst:220 ../../api/rma.rst:223 ../../api/rma.rst:226
+#: ../../api/rma.rst:229 ../../api/rma.rst:232 ../../api/rma.rst:235
+#: ../../api/rma.rst:238 ../../api/rma.rst:241 ../../api/rma.rst:244
+#: ../../api/rma.rst:247 ../../api/rma.rst:259
+msgid "Yes"
+msgstr ""
+
+#: ../../api/amo.rst:302 ../../api/amo.rst:303 ../../api/amo.rst:354
+#: ../../api/amo.rst:355 ../../api/coll.rst:257 ../../api/coll.rst:258
+#: ../../api/rma.rst:227 ../../api/rma.rst:228
+msgid "long"
+msgstr ""
+
+#: ../../api/amo.rst:305 ../../api/amo.rst:357 ../../api/coll.rst:261
+#: ../../api/rma.rst:230
+msgid "long long"
+msgstr ""
+
+#: ../../api/amo.rst:306 ../../api/amo.rst:358 ../../api/coll.rst:262
+#: ../../api/rma.rst:231
+msgid "longlong"
+msgstr ""
+
+#: ../../api/amo.rst:308 ../../api/amo.rst:360 ../../api/amo.rst:397
+#: ../../api/coll.rst:277 ../../api/rma.rst:239
+msgid "unsigned int"
+msgstr ""
+
+#: ../../api/amo.rst:309 ../../api/amo.rst:361 ../../api/amo.rst:398
+#: ../../api/coll.rst:278 ../../api/rma.rst:240
+msgid "uint"
+msgstr ""
+
+#: ../../api/amo.rst:311 ../../api/amo.rst:363 ../../api/amo.rst:400
+#: ../../api/coll.rst:281 ../../api/rma.rst:242
+msgid "unsigned long"
+msgstr ""
+
+#: ../../api/amo.rst:312 ../../api/amo.rst:364 ../../api/amo.rst:401
+#: ../../api/coll.rst:282 ../../api/rma.rst:243
+msgid "ulong"
+msgstr ""
+
+#: ../../api/amo.rst:314 ../../api/amo.rst:366 ../../api/amo.rst:403
+#: ../../api/coll.rst:285 ../../api/rma.rst:245
+msgid "unsigned long long"
+msgstr ""
+
+#: ../../api/amo.rst:315 ../../api/amo.rst:367 ../../api/amo.rst:404
+#: ../../api/coll.rst:286 ../../api/rma.rst:246
+msgid "ulonglong"
+msgstr ""
+
+#: ../../api/amo.rst:317 ../../api/amo.rst:369 ../../api/amo.rst:406
+#: ../../api/coll.rst:297 ../../api/rma.rst:254
+msgid "int32_t"
+msgstr ""
+
+#: ../../api/amo.rst:318 ../../api/amo.rst:370 ../../api/amo.rst:407
+#: ../../api/coll.rst:298 ../../api/rma.rst:255
+msgid "int32"
+msgstr ""
+
+#: ../../api/amo.rst:320 ../../api/amo.rst:372 ../../api/amo.rst:409
+#: ../../api/coll.rst:301 ../../api/rma.rst:257
+msgid "int64_t"
+msgstr ""
+
+#: ../../api/amo.rst:321 ../../api/amo.rst:373 ../../api/amo.rst:410
+#: ../../api/coll.rst:302 ../../api/rma.rst:258
+msgid "int64"
+msgstr ""
+
+#: ../../api/amo.rst:323 ../../api/amo.rst:375 ../../api/amo.rst:412
+#: ../../api/coll.rst:313 ../../api/rma.rst:266
+msgid "uint32_t"
+msgstr ""
+
+#: ../../api/amo.rst:324 ../../api/amo.rst:376 ../../api/amo.rst:413
+#: ../../api/coll.rst:314 ../../api/rma.rst:267
+msgid "uint32"
+msgstr ""
+
+#: ../../api/amo.rst:326 ../../api/amo.rst:378 ../../api/amo.rst:415
+#: ../../api/coll.rst:317 ../../api/rma.rst:269
+msgid "uint64_t"
+msgstr ""
+
+#: ../../api/amo.rst:327 ../../api/amo.rst:379 ../../api/amo.rst:416
+#: ../../api/coll.rst:318 ../../api/rma.rst:270
+msgid "uint64"
+msgstr ""
+
+#: ../../api/amo.rst:329 ../../api/amo.rst:381 ../../api/coll.rst:321
+#: ../../api/rma.rst:272
+msgid "size_t"
+msgstr ""
+
+#: ../../api/amo.rst:330 ../../api/amo.rst:382 ../../api/coll.rst:322
+#: ../../api/rma.rst:273
+msgid "size"
+msgstr ""
+
+#: ../../api/amo.rst:332 ../../api/amo.rst:384 ../../api/coll.rst:265
+#: ../../api/rma.rst:275
+msgid "ptrdiff_t"
+msgstr ""
+
+#: ../../api/amo.rst:333 ../../api/amo.rst:385 ../../api/coll.rst:266
+#: ../../api/rma.rst:276
+msgid "ptrdiff"
+msgstr ""
+
+#: ../../api/amo.rst:338
+msgid "Extended AMO Data Types"
+msgstr ""
+
+#: ../../api/amo.rst:345 ../../api/amo.rst:346 ../../api/coll.rst:325
+#: ../../api/coll.rst:326 ../../api/rma.rst:206 ../../api/rma.rst:207
+msgid "float"
+msgstr ""
+
+#: ../../api/amo.rst:348 ../../api/amo.rst:349 ../../api/coll.rst:329
+#: ../../api/coll.rst:330 ../../api/rma.rst:209 ../../api/rma.rst:210
+msgid "double"
+msgstr ""
+
+#: ../../api/amo.rst:390
+msgid "Bitwise AMO Data Types"
+msgstr ""
+
+#: ../../api/coll.rst:9
+msgid "Collective routines"
+msgstr ""
+
+#: ../../api/coll.rst:12
+msgid "ROCSHMEM_BARRIER_ALL"
+msgstr ""
+
+#: ../../api/coll.rst:20
+msgid ""
+"**Description:** This routine performs a collective barrier across all "
+"PEs in the system. The caller is blocked until the barrier is resolved "
+"and all updates local and remote are completed. These APIs should be "
+"called from only one thread/wavefront/workgroup within the grid to avoid "
+"undefined behavior."
+msgstr ""
+
+#: ../../api/coll.rst:26
+msgid "ROCSHMEM_BARRIER_ALL_ON_STREAM"
+msgstr ""
+
+#: ../../api/coll.rst:30 ../../api/coll.rst:115 ../../api/coll.rst:179
+#: ../../api/pt2pt_sync.rst:107 ../../api/rma.rst:79 ../../api/rma.rst:168
+#: ../../api/sigops.rst:86
+msgid "HIP stream on which to enqueue the operation."
+msgstr ""
+
+#: ../../api/coll.rst:33
+msgid ""
+"**Description:** This routine enqueues a collective barrier operation on "
+"a HIP stream. The barrier is performed across all PEs in the system. The "
+"operation is enqueued on the specified stream and will execute "
+"asynchronously. The caller must synchronize the stream (e.g., using "
+"``hipStreamSynchronize``) to ensure completion."
+msgstr ""
+
+#: ../../api/coll.rst:40
+msgid "ROCSHMEM_BARRIER"
+msgstr ""
+
+#: ../../api/coll.rst:49
+msgid ""
+"**Description:** This routine performs a collective barrier between all "
+"PEs in the system. The caller is blocked until the barrier is resolved."
+msgstr ""
+
+#: ../../api/coll.rst:54
+msgid "ROCSHMEM_TEAM_SYNC"
+msgstr ""
+
+#: ../../api/coll.rst:61
+msgid "Team with which to perform this operation."
+msgstr ""
+
+#: ../../api/coll.rst:64
+msgid ""
+"**Description:** This routine registers the arrival of a PE at a barrier."
+" The caller is blocked until the synchronization is resolved."
+msgstr ""
+
+#: ../../api/coll.rst:68
+msgid ""
+"Unlike the ``shmem_barrier_all`` routine, ``shmem_team_sync`` only "
+"ensures the completion and visibility of previously issued memory stores,"
+" but does not ensure the completion of remote memory updates issued via "
+"OpenSHMEM routines."
+msgstr ""
+
+#: ../../api/coll.rst:73
+msgid "ROCSHMEM_SYNC_ALL"
+msgstr ""
+
+#: ../../api/coll.rst:81
+msgid ""
+"**Description:** These routines behaves the same way as "
+"``rocshmem_team_sync_*`` when called on the world team. These APIs should"
+" be called from only one thread/wavefront/workgroup within the grid to "
+"avoid undefined behavior."
+msgstr ""
+
+#: ../../api/coll.rst:86
+msgid "ROSHMEM_ALLTOALL"
+msgstr ""
+
+#: ../../api/coll.rst:91 ../../api/coll.rst:111 ../../api/coll.rst:133
+#: ../../api/coll.rst:155 ../../api/coll.rst:174 ../../api/coll.rst:197
+#: ../../api/coll.rst:214
+msgid "The team participating in the collective."
+msgstr ""
+
+#: ../../api/coll.rst:94 ../../api/coll.rst:113 ../../api/coll.rst:137
+#: ../../api/coll.rst:158 ../../api/coll.rst:176 ../../api/coll.rst:200
+#: ../../api/coll.rst:217 ../../api/rma.rst:35 ../../api/rma.rst:61
+#: ../../api/rma.rst:76 ../../api/rma.rst:123 ../../api/rma.rst:150
+#: ../../api/rma.rst:165 ../../api/rma.rst:184 ../../api/sigops.rst:29
+#: ../../api/sigops.rst:60
+msgid "Source address. Must be an address on the symmetric heap."
+msgstr ""
+
+#: ../../api/coll.rst:96 ../../api/coll.rst:160 ../../api/coll.rst:202
+#: ../../api/coll.rst:219
+msgid "Number of data blocks transferred per pair of PEs."
+msgstr ""
+
+#: ../../api/coll.rst:99
+msgid ""
+"**Description:** This routine exchanges a fixed amount of contiguous data"
+" blocks between all pairs of PEs participating in the collective routine."
+" This function must be called as a work-group collective."
+msgstr ""
+
+#: ../../api/coll.rst:104 ../../api/coll.rst:167
+msgid "Valid ``TYPENAME`` and ``TYPE`` values are listed in :ref:`RMA_TYPES`."
+msgstr ""
+
+#: ../../api/coll.rst:107
+msgid "ROCSHMEM_ALLTOALLMEM_ON_STREAM"
+msgstr ""
+
+#: ../../api/coll.rst:114
+msgid "Number of bytes to transfer per pair of PEs."
+msgstr ""
+
+#: ../../api/coll.rst:118
+msgid ""
+"**Description:** This routine enqueues an alltoall collective operation "
+"on a HIP stream. The function exchanges a fixed amount of contiguous data"
+" blocks between all pairs of PEs participating in the collective routine."
+" The operation is enqueued on the specified stream and will execute "
+"asynchronously. The caller must synchronize the stream (e.g., using "
+"``hipStreamSynchronize``) to ensure completion."
+msgstr ""
+
+#: ../../api/coll.rst:125 ../../api/coll.rst:188
+msgid ""
+"This function creates a separate context for each workgroup to avoid "
+"contention on the default context, allowing parallel execution across "
+"multiple streams."
+msgstr ""
+
+#: ../../api/coll.rst:129
+msgid "ROCSHMEM_ALLTOALLV"
+msgstr ""
+
+#: ../../api/coll.rst:135
+msgid "Array containing number of elements to receive from each participating PE"
+msgstr ""
+
+#: ../../api/coll.rst:136
+msgid "Array of offsets into dest buffer for each participating PE"
+msgstr ""
+
+#: ../../api/coll.rst:138
+msgid "Array containing number of elements to send from each participating PE"
+msgstr ""
+
+#: ../../api/coll.rst:139
+msgid "Array of offsets into source buffer for each participating PE"
+msgstr ""
+
+#: ../../api/coll.rst:143
+msgid ""
+"**Description:** PE i sends source_nelems[j] of data from source + "
+"source_displs[j] to PE j. At the same time, PE i receives dest_nelems[j] "
+"of data from PE j to be placed at dest + dest_displs[j]. This function "
+"must be called as a work-group collective. Valid TYPENAME and TYPE values"
+" are listed in :ref:`RMA_TYPES`."
+msgstr ""
+
+#: ../../api/coll.rst:150
+msgid "ROCSHMEM_BROADCAST"
+msgstr ""
+
+#: ../../api/coll.rst:154 ../../api/coll.rst:196 ../../api/coll.rst:213
+msgid "Context with which to perform this collective."
+msgstr ""
+
+#: ../../api/coll.rst:163
+msgid ""
+"**Description:** This routine performs a broadcast across PEs in the "
+"team. The caller is blocked until the broadcast completes."
+msgstr ""
+
+#: ../../api/coll.rst:170
+msgid "ROCSHMEM_BROADCASTMEM_ON_STREAM"
+msgstr ""
+
+#: ../../api/coll.rst:177
+msgid "Number of bytes to broadcast."
+msgstr ""
+
+#: ../../api/coll.rst:178
+msgid "Root PE (relative to team) from which to broadcast."
+msgstr ""
+
+#: ../../api/coll.rst:182
+msgid ""
+"**Description:** This routine enqueues a broadcast collective operation "
+"on a HIP stream. The function broadcasts data from the root PE to all "
+"other PEs participating in the collective routine. The operation is "
+"enqueued on the specified stream and will execute asynchronously. The "
+"caller must synchronize the stream (e.g., using ``hipStreamSynchronize``)"
+" to ensure completion."
+msgstr ""
+
+#: ../../api/coll.rst:192
+msgid "ROCSHMEM_FCOLLECT"
+msgstr ""
+
+#: ../../api/coll.rst:205
+msgid ""
+"**Description:** This routine concatenates blocks of data from multiple "
+"PEs to an array in every PE participating in the collective routine."
+msgstr ""
+
+#: ../../api/coll.rst:210
+msgid "ROCSHMEM_REDUCTION"
+msgstr ""
+
+#: ../../api/coll.rst:220
+msgid "Zero on successful local completion. Nonzero otherwise."
+msgstr ""
+
+#: ../../api/coll.rst:223
+msgid ""
+"**Description:** This routine  performs an allreduce operation across PEs"
+" in the team."
+msgstr ""
+
+#: ../../api/coll.rst:226
+msgid ""
+"Valid ``TYPENAME``, ``TYPE``, and ``OPNAME`` values are listed in "
+":ref:`REDUCE_TYPES`."
+msgstr ""
+
+#: ../../api/coll.rst:229
+msgid "Supported reduction types and operations"
+msgstr ""
+
+#: ../../api/coll.rst:233
+msgid "Reduction Types, Names and Operations"
+msgstr ""
+
+#: ../../api/coll.rst:239
+msgid "OPNAME"
+msgstr ""
+
+#: ../../api/coll.rst:241 ../../api/coll.rst:242 ../../api/rma.rst:215
+#: ../../api/rma.rst:216
+msgid "char"
+msgstr ""
+
+#: ../../api/coll.rst:243 ../../api/coll.rst:247 ../../api/coll.rst:251
+#: ../../api/coll.rst:255 ../../api/coll.rst:259 ../../api/coll.rst:263
+#: ../../api/coll.rst:267 ../../api/coll.rst:327 ../../api/coll.rst:331
+#: ../../api/coll.rst:335
+msgid "max, min, sum, prod"
+msgstr ""
+
+#: ../../api/coll.rst:244 ../../api/coll.rst:248 ../../api/coll.rst:268
+#: ../../api/coll.rst:272 ../../api/coll.rst:276 ../../api/coll.rst:280
+#: ../../api/coll.rst:284 ../../api/coll.rst:288 ../../api/coll.rst:292
+#: ../../api/coll.rst:296 ../../api/coll.rst:300 ../../api/coll.rst:304
+#: ../../api/coll.rst:308 ../../api/coll.rst:312 ../../api/coll.rst:316
+#: ../../api/coll.rst:320 ../../api/coll.rst:324 ../../api/coll.rst:336
+#: ../../api/coll.rst:340 ../../api/coll.rst:344 ../../api/rma.rst:214
+#: ../../api/rma.rst:250 ../../api/rma.rst:253 ../../api/rma.rst:256
+#: ../../api/rma.rst:262 ../../api/rma.rst:265 ../../api/rma.rst:268
+#: ../../api/rma.rst:271 ../../api/rma.rst:274 ../../api/rma.rst:277
+msgid "No"
+msgstr ""
+
+#: ../../api/coll.rst:245 ../../api/rma.rst:218
+msgid "signed char"
+msgstr ""
+
+#: ../../api/coll.rst:246 ../../api/rma.rst:219
+msgid "schar"
+msgstr ""
+
+#: ../../api/coll.rst:249 ../../api/coll.rst:250 ../../api/rma.rst:221
+#: ../../api/rma.rst:222
+msgid "short"
+msgstr ""
+
+#: ../../api/coll.rst:269 ../../api/rma.rst:233
+msgid "unsigned char"
+msgstr ""
+
+#: ../../api/coll.rst:270 ../../api/rma.rst:234
+msgid "uchar"
+msgstr ""
+
+#: ../../api/coll.rst:271 ../../api/coll.rst:275 ../../api/coll.rst:279
+#: ../../api/coll.rst:283 ../../api/coll.rst:287 ../../api/coll.rst:291
+#: ../../api/coll.rst:295 ../../api/coll.rst:299 ../../api/coll.rst:303
+#: ../../api/coll.rst:307 ../../api/coll.rst:311 ../../api/coll.rst:315
+#: ../../api/coll.rst:319 ../../api/coll.rst:323
+msgid "and, or, xor, max, min, sum, prod"
+msgstr ""
+
+#: ../../api/coll.rst:273 ../../api/rma.rst:236
+msgid "unsigned short"
+msgstr ""
+
+#: ../../api/coll.rst:274 ../../api/rma.rst:237
+msgid "ushort"
+msgstr ""
+
+#: ../../api/coll.rst:289 ../../api/rma.rst:248
+msgid "int8_t"
+msgstr ""
+
+#: ../../api/coll.rst:290 ../../api/rma.rst:249
+msgid "int8"
+msgstr ""
+
+#: ../../api/coll.rst:293 ../../api/rma.rst:251
+msgid "int16_t"
+msgstr ""
+
+#: ../../api/coll.rst:294 ../../api/rma.rst:252
+msgid "int16"
+msgstr ""
+
+#: ../../api/coll.rst:305 ../../api/rma.rst:260
+msgid "uint8_t"
+msgstr ""
+
+#: ../../api/coll.rst:306 ../../api/rma.rst:261
+msgid "uint8"
+msgstr ""
+
+#: ../../api/coll.rst:309 ../../api/rma.rst:263
+msgid "uint16_t"
+msgstr ""
+
+#: ../../api/coll.rst:310 ../../api/rma.rst:264
+msgid "uint16"
+msgstr ""
+
+#: ../../api/coll.rst:333 ../../api/rma.rst:212
+msgid "long double"
+msgstr ""
+
+#: ../../api/coll.rst:334 ../../api/rma.rst:213
+msgid "longdouble"
+msgstr ""
+
+#: ../../api/coll.rst:337
+msgid "double _Complex"
+msgstr ""
+
+#: ../../api/coll.rst:338
+msgid "complexd"
+msgstr ""
+
+#: ../../api/coll.rst:339 ../../api/coll.rst:343
+msgid "sum, prod"
+msgstr ""
+
+#: ../../api/coll.rst:341
+msgid "float _Complex"
+msgstr ""
+
+#: ../../api/coll.rst:342
+msgid "complexf"
+msgstr ""
+
+#: ../../api/ctx.rst:9
+msgid "Context management routines"
+msgstr ""
+
+#: ../../api/ctx.rst:12
+msgid "ROCSHMEM_CTX_CREATE"
+msgstr ""
+
+#: ../../api/ctx.rst:17
+msgid "Team handle to derive the context from."
+msgstr ""
+
+#: ../../api/ctx.rst:18
+msgid ""
+"Options for context creation. Ignored in current design; use the value "
+"``0``."
+msgstr ""
+
+#: ../../api/ctx.rst:19
+msgid "A handle to the newly created context."
+msgstr ""
+
+#: ../../api/ctx.rst:21
+msgid ""
+"All threads returns ``0`` if the context was created successfully. If any"
+" thread returns non-zero value, the operation fails, ctx is set to "
+"``ROCSHMEM_CTX_INVALID`` and a higher number of "
+"``ROCSHMEM_MAX_NUM_CONTEXTS`` is required."
+msgstr ""
+
+#: ../../api/ctx.rst:25
+msgid ""
+"**Description:** This routine creates an rocSHMEM context. By design, the"
+" context is private to the calling work-group. It must be called "
+"collectively by all threads in the work-group. If the context was created"
+" successfully, a value of zero is returned and the context handle pointed"
+" to by ctx specifies a valid context; otherwise, a nonzero value is "
+"returned and ctx is set to ``ROCSHMEM_CTX_INVALID``. An unsuccessful "
+"context creation call is not treated as an error and the rocSHMEM library"
+" remains in a correct state. The creation call can be reattempted after "
+"additional resources become available."
+msgstr ""
+
+#: ../../api/ctx.rst:34
+msgid "ROCSHMEM_CTX_DESTROY"
+msgstr ""
+
+#: ../../api/ctx.rst:38
+msgid "Context handle."
+msgstr ""
+
+#: ../../api/ctx.rst:42
+msgid ""
+"**Description:** This routine destroys an rocSHMEM context. It must be "
+"called collectively by all threads in the work-group. If ctx has the "
+"value ``ROCSHMEM_CTX_INVALID``, no operation is performed."
+msgstr ""
+
+#: ../../api/ctx.rst:47
+msgid "ROCSHMEM_GET_DEVICE_CTX"
+msgstr ""
+
+#: ../../api/ctx.rst
+msgid "param"
+msgstr ""
+
+#: ../../api/ctx.rst:53
+msgid ""
+"Returns ``ROCSHMEM_CTX_DEFAULT`` device pointer that users. can query "
+"from one instance of rocSHMEM host library and use later for dynamic "
+"module initialization in kernel bitcode device library in the same "
+"application."
+msgstr ""
+
+#: ../../api/ctx.rst:58
+msgid ""
+"**Description:** This routine queries rocSHMEM default device context "
+"from host API."
+msgstr ""
+
+#: ../../api/env_variables.rst:-1
+msgid "rocSHMEM environment variables reference"
+msgstr ""
+
+#: ../../api/env_variables.rst:-1
+msgid "rocSHMEM, ROCm, API, environment variables, environment, reference"
+msgstr ""
+
+#: ../../api/env_variables.rst:9
+msgid "rocSHMEM environment variables"
+msgstr ""
+
+#: ../../api/env_variables.rst:11
+msgid ""
+"This section describes the important environment variables used to "
+"control the behavior of rocSHMEM."
+msgstr ""
+
+#: ../../api/env_variables.rst:18
+msgid "**Environment variable**"
+msgstr ""
+
+#: ../../api/env_variables.rst:19
+msgid "**Default value**"
+msgstr ""
+
+#: ../../api/env_variables.rst:20
+msgid "**Value**"
+msgstr ""
+
+#: ../../api/env_variables.rst
+msgid "``ROCSHMEM_HEAP_SIZE``"
+msgstr ""
+
+#: ../../api/env_variables.rst
+msgid "Defines the size of the rocSHMEM symmetric heap in bytes (per PE)."
+msgstr ""
+
+#: ../../api/env_variables.rst:24
+msgid "``1073741824`` (1 GB)"
+msgstr ""
+
+#: ../../api/env_variables.rst
+msgid "Size in bytes (per PE)."
+msgstr ""
+
+#: ../../api/env_variables.rst
+msgid "Note: the heap is on GPU memory."
+msgstr ""
+
+#: ../../api/env_variables.rst
+msgid "``ROCSHMEM_MAX_NUM_CONTEXTS``"
+msgstr ""
+
+#: ../../api/env_variables.rst
+msgid "Defines the number of contexts an application can use."
+msgstr ""
+
+#: ../../api/env_variables.rst:30
+msgid "``32``"
+msgstr ""
+
+#: ../../api/env_variables.rst:31
+msgid "Maximum number of contexts."
+msgstr ""
+
+#: ../../api/env_variables.rst
+msgid "``ROCSHMEM_MAX_NUM_TEAMS``"
+msgstr ""
+
+#: ../../api/env_variables.rst
+msgid "Defines the number of teams an application can use."
+msgstr ""
+
+#: ../../api/env_variables.rst:35
+msgid "``40``"
+msgstr ""
+
+#: ../../api/env_variables.rst:36
+msgid "Maximum number of teams."
+msgstr ""
+
+#: ../../api/env_variables.rst
+msgid "``ROCSHMEM_BACKEND``"
+msgstr ""
+
+#: ../../api/env_variables.rst
+msgid "When rocSHMEM is compiled for all backends, this enviroment variable"
+msgstr ""
+
+#: ../../api/env_variables.rst
+msgid ""
+"selects which backend to execute. The default value is an empty string "
+"and rocSHMEM auto-selects the most appropriate backend."
+msgstr ""
+
+#: ../../api/env_variables.rst:41 ../../api/env_variables.rst:61
+#: ../../api/env_variables.rst:69 ../../api/env_variables.rst:76
+#: ../../api/env_variables.rst:83
+msgid "`` ``"
+msgstr ""
+
+#: ../../api/env_variables.rst
+msgid "``ipc``: IPC Backend"
+msgstr ""
+
+#: ../../api/env_variables.rst
+msgid "``ro``: Reverse Offload Backend"
+msgstr ""
+
+#: ../../api/env_variables.rst
+msgid "``gda``: GPU Direct Async Backend"
+msgstr ""
+
+#: ../../api/env_variables.rst
+msgid "``ROCSHMEM_UNIQUEID_WITH_MPI``"
+msgstr ""
+
+#: ../../api/env_variables.rst
+msgid ""
+"Defines whether rocSHMEM is expected to use MPI when using the uniqueId "
+"based initialization."
+msgstr ""
+
+#: ../../api/env_variables.rst:48 ../../api/env_variables.rst:54
+#: ../../api/env_variables.rst:97 ../../api/env_variables.rst:102
+#: ../../api/env_variables.rst:108
+msgid "``0``"
+msgstr ""
+
+#: ../../api/env_variables.rst
+msgid "``0``: Do not use MPI."
+msgstr ""
+
+#: ../../api/env_variables.rst
+msgid "``1``: Use MPI."
+msgstr ""
+
+#: ../../api/env_variables.rst
+msgid "``ROCSHMEM_DISABLE_MIXED_IPC``"
+msgstr ""
+
+#: ../../api/env_variables.rst
+msgid ""
+"Defines whether to force using the network conduit even when IPC is "
+"available."
+msgstr ""
+
+#: ../../api/env_variables.rst
+msgid "``0``: Use IPC when available."
+msgstr ""
+
+#: ../../api/env_variables.rst
+msgid "``1``: Force network conduit."
+msgstr ""
+
+#: ../../api/env_variables.rst
+msgid "``ROCSHMEM_USE_IB_HCA``"
+msgstr ""
+
+#: ../../api/env_variables.rst
+msgid ""
+"Forces the NIC that this PE uses. When this value is set NIC auto-"
+"detection and mapping is disabled, the NIC specified in the variable"
+msgstr ""
+
+#: ../../api/env_variables.rst
+msgid ""
+"will be selected. The default value is an empty string and rocSHMEM auto-"
+"detects the most appropriate NIC."
+msgstr ""
+
+#: ../../api/env_variables.rst
+msgid "Example value: ``bnxt_re0``"
+msgstr ""
+
+#: ../../api/env_variables.rst
+msgid "``ROCSHMEM_HCA_LIST``"
+msgstr ""
+
+#: ../../api/env_variables.rst
+msgid ""
+"Comma separated list of NIC names that can be used by rocSHMEM. Unlike "
+"``ROCSHMEM_USE_IB_HCA``, when this variable is set,"
+msgstr ""
+
+#: ../../api/env_variables.rst
+msgid ""
+"NIC auto-detection and mapping still executes, but NICs that are not in "
+"the list are discarded before auto-detection runs."
+msgstr ""
+
+#: ../../api/env_variables.rst
+msgid ""
+"Prefixing the list with ``^`` turns the list in an *exclude* list, NICs "
+"that are in the list are discarded before auto-detection runs."
+msgstr ""
+
+#: ../../api/env_variables.rst
+msgid ""
+"The default value is an empty string and rocSHMEM auto-detects the most "
+"appropriate NIC."
+msgstr ""
+
+#: ../../api/env_variables.rst
+msgid "Example value: ``bnxt_re1,bnxt_re11``, ``^mlx5_0,mlx5_3``"
+msgstr ""
+
+#: ../../api/env_variables.rst
+msgid "``ROCSHMEM_BOOTSTRAP_SOCKET_IFNAME``"
+msgstr ""
+
+#: ../../api/env_variables.rst
+msgid "Chooses the interface to bootstrap rocSHMEM with."
+msgstr ""
+
+#: ../../api/env_variables.rst
+msgid "Only valid when not using MPI."
+msgstr ""
+
+#: ../../api/env_variables.rst
+msgid ""
+"The default value is an empty string and rocSHMEM auto-detects the most "
+"appropriate interface."
+msgstr ""
+
+#: ../../api/env_variables.rst
+msgid "Example value: ``eno8303``"
+msgstr ""
+
+#: ../../api/env_variables.rst
+msgid "``ROCSHMEM_GDA_PROVIDER``"
+msgstr ""
+
+#: ../../api/env_variables.rst
+msgid "When rocSHMEM is compiled with support for multiple NIC vendors,"
+msgstr ""
+
+#: ../../api/env_variables.rst
+msgid "the enviroment variable selects the desired provider."
+msgstr ""
+
+#: ../../api/env_variables.rst
+msgid "``bnxt``: Broadcom Thor 2"
+msgstr ""
+
+#: ../../api/env_variables.rst
+msgid "``pensando``: AMD Pensando Pollara"
+msgstr ""
+
+#: ../../api/env_variables.rst
+msgid "``ionic``: AMD Pensando Pollara (alias)"
+msgstr ""
+
+#: ../../api/env_variables.rst
+msgid "``mlx5``: Mellanox ConnectX-7"
+msgstr ""
+
+#: ../../api/env_variables.rst
+msgid "``ROCSHMEM_GDA_ALTERNATE_QP_PORTS``"
+msgstr ""
+
+#: ../../api/env_variables.rst
+msgid "Enables or disables alternating QP mappings across rocSHMEM contexts."
+msgstr ""
+
+#: ../../api/env_variables.rst:91
+msgid "``1``"
+msgstr ""
+
+#: ../../api/env_variables.rst
+msgid "``0``: Disabled."
+msgstr ""
+
+#: ../../api/env_variables.rst
+msgid ""
+"``1``: Enabled. This helps saturate bandwidth on multiport bonded "
+"interfaces."
+msgstr ""
+
+#: ../../api/env_variables.rst
+msgid "``ROCSHMEM_GDA_TRAFFIC_CLASS``"
+msgstr ""
+
+#: ../../api/env_variables.rst
+msgid ""
+"When using an NIC with an Ethernet link layer, this sets the traffic "
+"class for the QPs."
+msgstr ""
+
+#: ../../api/env_variables.rst:98
+msgid "The traffic class number."
+msgstr ""
+
+#: ../../api/env_variables.rst
+msgid "``ROCSHMEM_GDA_PCIE_RELAXED_ORDERING``"
+msgstr ""
+
+#: ../../api/env_variables.rst
+msgid ""
+"Enables PCIe Relaxed Ordering when registering the symmetric heap with "
+"the RDMA NICs."
+msgstr ""
+
+#: ../../api/env_variables.rst
+msgid "``1``: Enabled."
+msgstr ""
+
+#: ../../api/env_variables.rst
+msgid "``ROCSHMEM_GDA_ENABLE_DMABUF``"
+msgstr ""
+
+#: ../../api/env_variables.rst
+msgid "Enable dmabuf support for memory registration."
+msgstr ""
+
+#: ../../api/init.rst:9
+msgid "Library setup, exit, and query routines"
+msgstr ""
+
+#: ../../api/init.rst:12
+msgid "ROCSHMEM_INIT"
+msgstr ""
+
+#: ../../api/init.rst:19
+msgid ""
+"**Description:** This routine initializes the rocSHMEM library and "
+"underlying transport layer. Before ``rocshmem_init`` is called, you must "
+"select the device that this PE is associated to by calling `hipSetDevice "
+"<https://rocm.docs.amd.com/projects/HIP/en/docs-6.0.0/doxygen/html/group___device.html#ga43c1e7f15925eeb762195ccb5e063eae>`_."
+msgstr ""
+
+#: ../../api/init.rst:27
+msgid "Routine `rocshmem_wg_init` has been deprecated."
+msgstr ""
+
+#: ../../api/init.rst:34
+msgid ""
+"**Description:** This routine has been deprecated, please do not use. "
+"This routine initializes device-side rocSHMEM resources. It must be "
+"called before any threads in this work-group invoke other rocSHMEM "
+"functions. It must be called collectively by all threads in the work-"
+"group."
+msgstr ""
+
+#: ../../api/init.rst:41
+msgid "ROCSHMEM_FINALIZE"
+msgstr ""
+
+#: ../../api/init.rst:47
+msgid "**Description:** This routine finalizes the rocSHMEM library."
+msgstr ""
+
+#: ../../api/init.rst:51
+msgid "Routine `rocshmem_wg_finalize` has been deprecated."
+msgstr ""
+
+#: ../../api/init.rst:58
+msgid ""
+"**Description:** This routine has been deprecated, please do not use. "
+"This routine finalizes device-side rocSHMEM resources. It must be called "
+"before work-group completion if the work-group also called "
+"``rocshmem_wg_init``. It must be called collectively by all threads in "
+"the work-group."
+msgstr ""
+
+#: ../../api/init.rst:65
+msgid "ROCSHMEM_INIT_ATTR"
+msgstr ""
+
+#: ../../api/init.rst:68
+msgid "The initialization method to be used."
+msgstr ""
+
+#: ../../api/init.rst:69
+msgid "Attribute structure specifying input characteristics."
+msgstr ""
+
+#: ../../api/init.rst
+msgid "returns int"
+msgstr ""
+
+#: ../../api/init.rst:71 ../../api/init.rst:84 ../../api/init.rst:98
+msgid "Returns ``0`` on success; otherwise, returns a nonzero value."
+msgstr ""
+
+#: ../../api/init.rst:73
+msgid ""
+"**Description:** This routine initializes the rocSHMEM runtime and "
+"underlying transport layer using the provided mode and attributes. The "
+"parameter ``flags`` can be either ``ROCSHMEM_INIT_WITH_UNIQUEID`` or "
+"``ROCSHMEM_INIT_WITH_MPI_COMM``."
+msgstr ""
+
+#: ../../api/init.rst:80
+msgid "ROCSHMEM_GET_UNIQUEID"
+msgstr ""
+
+#: ../../api/init.rst:83
+msgid "Pointer to a unique ID handle."
+msgstr ""
+
+#: ../../api/init.rst:86
+msgid "**Description:** This routine returns a unique ID."
+msgstr ""
+
+#: ../../api/init.rst:90
+msgid "ROCSHMEM_SET_ATTR_UNIQUEID_ARGS"
+msgstr ""
+
+#: ../../api/init.rst:93
+msgid "Rank of the calling process."
+msgstr ""
+
+#: ../../api/init.rst:94
+msgid "Number of PEs."
+msgstr ""
+
+#: ../../api/init.rst:95
+msgid "Unique ID used to identify the group processes."
+msgstr ""
+
+#: ../../api/init.rst:96
+msgid "Attribute structure to be passed to ``rocshmem_init_attr_t``."
+msgstr ""
+
+#: ../../api/init.rst:100
+msgid ""
+"**Description:** This routine initializes the ``rocshmem_init_attr_t`` "
+"struct."
+msgstr ""
+
+#: ../../api/init.rst:104
+msgid "ROCSHMEM_N_PES"
+msgstr ""
+
+#: ../../api/init.rst:109 ../../api/init.rst:119
+msgid "Total number of PEs."
+msgstr ""
+
+#: ../../api/init.rst:111
+msgid ""
+"**Description:** This routine queries the total number of PEs. It can be "
+"called before ``rocshmem_init``."
+msgstr ""
+
+#: ../../api/init.rst:118 ../../api/init.rst:140
+msgid "GPU side context handle."
+msgstr ""
+
+#: ../../api/init.rst:121
+msgid ""
+"**Description:** This routine queries the total number of PEs for a given"
+" context. It can be called per thread with no performance penalty."
+msgstr ""
+
+#: ../../api/init.rst:126
+msgid "ROCSHMEM_MY_PE"
+msgstr ""
+
+#: ../../api/init.rst:131 ../../api/init.rst:141
+msgid "PE ID of the caller."
+msgstr ""
+
+#: ../../api/init.rst:133
+msgid ""
+"**Description:** This routine queries the PE ID of the caller. It can be "
+"called before ``rocshmem_init``."
+msgstr ""
+
+#: ../../api/init.rst:143
+msgid ""
+"**Description:** This routine queries the PE ID of the caller. It can be "
+"called per thread with no performance penalty."
+msgstr ""
+
+#: ../../api/init.rst:148
+msgid "ROCSHMEM_PTR"
+msgstr ""
+
+#: ../../api/init.rst:153
+msgid "Local symmetric heap allocation pointer for current PE."
+msgstr ""
+
+#: ../../api/init.rst:154
+msgid "Remote PE."
+msgstr ""
+
+#: ../../api/init.rst:155
+msgid ""
+"Returns remote symmetric heap device pointer from host-side API. ``NULL``"
+" is returned if a valid device pointer cannot be provided. This pointer "
+"can be used to issue load/store from custom kernels instead of using "
+"rocshmem device side get/put APIs for RMA operations."
+msgstr ""
+
+#: ../../api/init.rst:160
+msgid ""
+"**Description:** This routine queries rocSHMEM remote symmetric heap "
+"pointer."
+msgstr ""
+
+#: ../../api/memory_management.rst:10
+msgid "Memory management routines"
+msgstr ""
+
+#: ../../api/memory_management.rst:13
+msgid "ROCSHMEM_MALLOC"
+msgstr ""
+
+#: ../../api/memory_management.rst:17
+msgid "Memory allocation size in bytes."
+msgstr ""
+
+#: ../../api/memory_management.rst:18
+msgid ""
+"A pointer to the allocated memory on the symmetric heap. If a valid "
+"allocation cannot be made, it returns ``NULL``."
+msgstr ""
+
+#: ../../api/memory_management.rst:21
+msgid ""
+"**Description:** This routine allocates memory of ``size`` bytes from the"
+" symmetric heap. This is a collective operation and must be called by all"
+" PEs."
+msgstr ""
+
+#: ../../api/memory_management.rst:26
+msgid "ROCSHMEM_FREE"
+msgstr ""
+
+#: ../../api/memory_management.rst:30
+msgid "A pointer to previously allocated memory on the symmetric heap."
+msgstr ""
+
+#: ../../api/memory_management.rst:33
+msgid ""
+"**Description:** This routine frees a memory allocation from the "
+"symmetric heap. It is a collective operation and must be called by all "
+"PEs."
+msgstr ""
+
+#: ../../api/memory_ordering.rst:9
+msgid "Memory ordering routines"
+msgstr ""
+
+#: ../../api/memory_ordering.rst:12
+msgid "ROCSHMEM_FENCE"
+msgstr ""
+
+#: ../../api/memory_ordering.rst:20
+msgid "Destination ``pe``."
+msgstr ""
+
+#: ../../api/memory_ordering.rst:23
+msgid ""
+"**Description:** This routine ensures order between messages in this "
+"context to follow OpenSHMEM semantics."
+msgstr ""
+
+#: ../../api/memory_ordering.rst:27
+msgid "ROCSHMEM_QUIET"
+msgstr ""
+
+#: ../../api/memory_ordering.rst:35
+msgid ""
+"**Description:** This routine completes all previous operations posted to"
+" this context."
+msgstr ""
+
+#: ../../api/memory_ordering.rst:39
+msgid "ROCSHMEM_PE_QUIET"
+msgstr ""
+
+#: ../../api/memory_ordering.rst:45
+msgid "Address of target PE array where the operations need to be completed"
+msgstr ""
+
+#: ../../api/memory_ordering.rst:46
+msgid "The number of PEs in the target PE array"
+msgstr ""
+
+#: ../../api/memory_ordering.rst:49
+msgid ""
+"**Description:** This routine completes all previous operations posted to"
+" this context for the PEs in the `target_pes` array."
+msgstr ""
+
+#: ../../api/pt2pt_sync.rst:9
+msgid "Point-to-point synchronization routines"
+msgstr ""
+
+#: ../../api/pt2pt_sync.rst:12
+msgid "ROCSHMEM_WAIT_UNTIL"
+msgstr ""
+
+#: ../../api/pt2pt_sync.rst:16 ../../api/pt2pt_sync.rst:33
+#: ../../api/pt2pt_sync.rst:51 ../../api/pt2pt_sync.rst:70
+#: ../../api/pt2pt_sync.rst:90
+msgid "Pointer to memory on the symmetric heap to wait for."
+msgstr ""
+
+#: ../../api/pt2pt_sync.rst:17 ../../api/pt2pt_sync.rst:36
+#: ../../api/pt2pt_sync.rst:54 ../../api/pt2pt_sync.rst:74
+#: ../../api/pt2pt_sync.rst:91
+msgid "Operation for the comparison."
+msgstr ""
+
+#: ../../api/pt2pt_sync.rst:18 ../../api/pt2pt_sync.rst:92
+msgid "Value to compare the memory at ``ivars`` to."
+msgstr ""
+
+#: ../../api/pt2pt_sync.rst:21
+msgid ""
+"**Description:** This routine blocks the caller until the condition "
+"``(*ivars cmp val)`` is true."
+msgstr ""
+
+#: ../../api/pt2pt_sync.rst:24 ../../api/pt2pt_sync.rst:43
+#: ../../api/pt2pt_sync.rst:61 ../../api/pt2pt_sync.rst:81
+#: ../../api/pt2pt_sync.rst:116
+msgid "Valid ``cmp`` values are listed in :ref:`CMP_VALUES`."
+msgstr ""
+
+#: ../../api/pt2pt_sync.rst:26 ../../api/pt2pt_sync.rst:45
+#: ../../api/pt2pt_sync.rst:63 ../../api/pt2pt_sync.rst:83
+msgid ""
+"Valid ``TYPENAME`` and ``TYPE`` values are listed in "
+":ref:`STANDARD_AMO_TYPES`."
+msgstr ""
+
+#: ../../api/pt2pt_sync.rst:29
+msgid "ROCSHMEM_WAIT_UNTIL_ALL"
+msgstr ""
+
+#: ../../api/pt2pt_sync.rst:34 ../../api/pt2pt_sync.rst:52
+#: ../../api/pt2pt_sync.rst:71
+msgid "Number of elements in the ``ivars`` array."
+msgstr ""
+
+#: ../../api/pt2pt_sync.rst:35 ../../api/pt2pt_sync.rst:53
+msgid "Array of length ``nelems`` to exclude elements from the wait."
+msgstr ""
+
+#: ../../api/pt2pt_sync.rst:37 ../../api/pt2pt_sync.rst:55
+#: ../../api/pt2pt_sync.rst:75
+msgid "Value to compare."
+msgstr ""
+
+#: ../../api/pt2pt_sync.rst:40
+msgid ""
+"**Description:** This routine blocks the caller until the condition "
+"``(ivars[i] cmp val)`` is true for all ``ivars``."
+msgstr ""
+
+#: ../../api/pt2pt_sync.rst:48
+msgid "ROCSHMEM_WAIT_UNTIL_ANY"
+msgstr ""
+
+#: ../../api/pt2pt_sync.rst:56
+msgid ""
+"The index of an element in the ``ivars`` array that satisfies the wait "
+"condition. If the wait set is empty, this routine returns ``SIZE_MAX``."
+msgstr ""
+
+#: ../../api/pt2pt_sync.rst:58
+msgid ""
+"**Description:** This routine blocks the caller until any of the "
+"condition ``(ivars[i] cmp val)`` is true."
+msgstr ""
+
+#: ../../api/pt2pt_sync.rst:66
+msgid "ROCSHMEM_WAIT_UNTIL_SOME"
+msgstr ""
+
+#: ../../api/pt2pt_sync.rst:72
+msgid "List of indices with a length of at least ``nelems``."
+msgstr ""
+
+#: ../../api/pt2pt_sync.rst:73
+msgid "Array of length ``nelems``  to exclude elements from the wait."
+msgstr ""
+
+#: ../../api/pt2pt_sync.rst:76
+msgid ""
+"The number of indices returned in the indices array. If the wait set is "
+"empty, this routine returns ``0``."
+msgstr ""
+
+#: ../../api/pt2pt_sync.rst:78
+msgid ""
+"**Description:** This routine blocks the caller until any of the "
+"conditions ``(ivars[i] cmp val)`` is true."
+msgstr ""
+
+#: ../../api/pt2pt_sync.rst:86
+msgid "ROCSHMEM_TEST"
+msgstr ""
+
+#: ../../api/pt2pt_sync.rst:94
+msgid "``1`` if the evaluation is true. ``0`` otherwise."
+msgstr ""
+
+#: ../../api/pt2pt_sync.rst:96
+msgid ""
+"**Description:** This routine tests if the condition ``(*ivars cmp val)``"
+" is true."
+msgstr ""
+
+#: ../../api/pt2pt_sync.rst:100
+msgid "ROCSHMEM_SIGNAL_WAIT_UNTIL_ON_STREAM"
+msgstr ""
+
+#: ../../api/pt2pt_sync.rst:104
+msgid "Address of the signal variable on the symmetric heap."
+msgstr ""
+
+#: ../../api/pt2pt_sync.rst:105
+msgid "Comparison operator (e.g., ROCSHMEM_CMP_EQ, ROCSHMEM_CMP_GE, etc.)."
+msgstr ""
+
+#: ../../api/pt2pt_sync.rst:106
+msgid "Value to compare against."
+msgstr ""
+
+#: ../../api/pt2pt_sync.rst:110
+msgid ""
+"**Description:** This routine enqueues a wait operation on a HIP stream. "
+"The function blocks the calling thread until the signal variable at "
+"``sig_addr`` satisfies the comparison condition ``(*sig_addr cmp "
+"cmp_value)``. The wait operation is executed asynchronously on the "
+"specified stream. The caller must synchronize the stream (e.g., using "
+"``hipStreamSynchronize``) to ensure the wait condition has been "
+"satisfied."
+msgstr ""
+
+#: ../../api/pt2pt_sync.rst:121
+msgid "Supported comparisons"
+msgstr ""
+
+#: ../../api/pt2pt_sync.rst:123
+msgid "The following table lists the point-to-point comparison constants:"
+msgstr ""
+
+#: ../../api/pt2pt_sync.rst:125
+msgid "Point-to-Point Comparison Constants"
+msgstr ""
+
+#: ../../api/pt2pt_sync.rst:129
+msgid "Constant"
+msgstr ""
+
+#: ../../api/pt2pt_sync.rst:130 ../../api/sigops.rst:120
+msgid "Description"
+msgstr ""
+
+#: ../../api/pt2pt_sync.rst:131
+msgid "ROCSHMEM_CMP_EQ"
+msgstr ""
+
+#: ../../api/pt2pt_sync.rst:132
+msgid "Equal"
+msgstr ""
+
+#: ../../api/pt2pt_sync.rst:133
+msgid "ROCSHMEM_CMP_NE"
+msgstr ""
+
+#: ../../api/pt2pt_sync.rst:134
+msgid "Not equal"
+msgstr ""
+
+#: ../../api/pt2pt_sync.rst:135
+msgid "ROCSHMEM_CMP_GT"
+msgstr ""
+
+#: ../../api/pt2pt_sync.rst:136
+msgid "Greater than"
+msgstr ""
+
+#: ../../api/pt2pt_sync.rst:137
+msgid "ROCSHMEM_CMP_GE"
+msgstr ""
+
+#: ../../api/pt2pt_sync.rst:138
+msgid "Greater than or equal to"
+msgstr ""
+
+#: ../../api/pt2pt_sync.rst:139
+msgid "ROCSHMEM_CMP_LT"
+msgstr ""
+
+#: ../../api/pt2pt_sync.rst:140
+msgid "Less than"
+msgstr ""
+
+#: ../../api/pt2pt_sync.rst:141
+msgid "ROCSHMEM_CMP_LE"
+msgstr ""
+
+#: ../../api/pt2pt_sync.rst:142
+msgid "Less than or equal to"
+msgstr ""
+
+#: ../../api/rma.rst:9
+msgid "Remote memory access routines"
+msgstr ""
+
+#: ../../api/rma.rst:11
+msgid ""
+"Routines with the ``_wave`` and ``_wg`` suffixes require all threads in a"
+" wavefront and workgroup, respectively, to call the routine with the same"
+" parameters."
+msgstr ""
+
+#: ../../api/rma.rst:13
+msgid ""
+"Routines with the ``_nbi`` substring will return as soon as the request "
+"is posted."
+msgstr ""
+
+#: ../../api/rma.rst:14
+msgid ""
+"Routines without the ``_nbi`` substring will block until the operation "
+"completes locally."
+msgstr ""
+
+#: ../../api/rma.rst:15
+msgid "Valid ``TYPENAME`` and ``TYPE`` values can be found in RMA_TYPES_."
+msgstr ""
+
+#: ../../api/rma.rst:18
+msgid "ROCSHMEM_PUT"
+msgstr ""
+
+#: ../../api/rma.rst:36 ../../api/rma.rst:124
+msgid "The number of elements to transfer."
+msgstr ""
+
+#: ../../api/rma.rst:40
+msgid ""
+"**Description:** This routine writes contiguous data of ``nelems`` "
+"elements from source on the calling PE to ``dest`` at ``pe``."
+msgstr ""
+
+#: ../../api/rma.rst:44
+msgid "ROCSHMEM_PUTMEM"
+msgstr ""
+
+#: ../../api/rma.rst:62 ../../api/rma.rst:77 ../../api/rma.rst:151
+#: ../../api/rma.rst:166 ../../api/sigops.rst:81
+msgid "Size of the transfer in bytes."
+msgstr ""
+
+#: ../../api/rma.rst:67
+msgid ""
+"**Description:** This routine writes contiguous data of ``nelems`` bytes "
+"from source on the calling PE to ``dest`` at ``pe``."
+msgstr ""
+
+#: ../../api/rma.rst:71
+msgid "ROCSHMEM_PUTMEM_ON_STREAM"
+msgstr ""
+
+#: ../../api/rma.rst:83
+msgid ""
+"**Description:** This routine enqueues a putmem RMA operation on a HIP "
+"stream. The function writes contiguous data of ``nelems`` bytes from "
+"source on the calling PE to ``dest`` at ``pe``. The operation is enqueued"
+" on the specified stream and will execute asynchronously. The caller must"
+" synchronize the stream (e.g., using ``hipStreamSynchronize``) to ensure "
+"completion."
+msgstr ""
+
+#: ../../api/rma.rst:90
+msgid "ROCSHMEM_P"
+msgstr ""
+
+#: ../../api/rma.rst:97
+msgid "Value to write to ``dest`` at ``pe``."
+msgstr ""
+
+#: ../../api/rma.rst:102
+msgid ""
+"**Description:** This routine writes a single value to to ``dest`` at "
+"``pe``."
+msgstr ""
+
+#: ../../api/rma.rst:106
+msgid "ROCSHMEM_GET"
+msgstr ""
+
+#: ../../api/rma.rst:122
+msgid "Destination address; Must be an address on the symmetric heap."
+msgstr ""
+
+#: ../../api/rma.rst:129
+msgid ""
+"**Description:** This routine reads contiguous data of ``nelems`` "
+"elements from source on ``pe`` to ``dest`` on the calling PE."
+msgstr ""
+
+#: ../../api/rma.rst:133
+msgid "ROCSHMEM_GETMEM"
+msgstr ""
+
+#: ../../api/rma.rst:156
+msgid ""
+"**Description:** This routine reads contiguous data of ``nelems`` bytes "
+"from source on ``pe`` to ``dest`` on the calling PE."
+msgstr ""
+
+#: ../../api/rma.rst:160
+msgid "ROCSHMEM_GETMEM_ON_STREAM"
+msgstr ""
+
+#: ../../api/rma.rst:172
+msgid ""
+"**Description:** This routine enqueues a getmem RMA operation on a HIP "
+"stream. The function reads contiguous data of ``nelems`` bytes from "
+"source on ``pe`` to ``dest`` on the calling PE. The operation is enqueued"
+" on the specified stream and will execute asynchronously. The caller must"
+" synchronize the stream (e.g., using ``hipStreamSynchronize``) to ensure "
+"completion."
+msgstr ""
+
+#: ../../api/rma.rst:179
+msgid "ROCSHMEM_G"
+msgstr ""
+
+#: ../../api/rma.rst:187
+msgid "The value read from source at ``pe``."
+msgstr ""
+
+#: ../../api/rma.rst:189
+msgid ""
+"**Description:** This routine reads and returns single value from source "
+"at ``pe``."
+msgstr ""
+
+#: ../../api/rma.rst:193
+msgid "Supported RMA data types"
+msgstr ""
+
+#: ../../api/rma.rst:195
+msgid "The following table lists the supported RMA data types:"
+msgstr ""
+
+#: ../../api/rma.rst:199
+msgid "RMA Data Types"
+msgstr ""
+
+#: ../../api/sigops.rst:9
+msgid "Signaling operations"
+msgstr ""
+
+#: ../../api/sigops.rst:12
+msgid "ROCSHMEM_PUTMEM_SIGNAL"
+msgstr ""
+
+#: ../../api/sigops.rst:30
+msgid "The number of bytes to transfer."
+msgstr ""
+
+#: ../../api/sigops.rst:31 ../../api/sigops.rst:62 ../../api/sigops.rst:105
+msgid "Signal address. Must be an address on the symmetric heap."
+msgstr ""
+
+#: ../../api/sigops.rst:32 ../../api/sigops.rst:63
+msgid "Signal value."
+msgstr ""
+
+#: ../../api/sigops.rst:33 ../../api/sigops.rst:64
+msgid "Atomic operation to apply the signal value."
+msgstr ""
+
+#: ../../api/sigops.rst:37
+msgid ""
+"**Description:** This function writes contiguous data of ``nelems`` bytes"
+" from source on the calling PE to ``dest`` at ``pe``, then applies "
+"``sig_op`` at ``sig_addr`` with the signal value. Valid ``sig_op values``"
+" are listed in SIGNAL_OPERATORS_."
+msgstr ""
+
+#: ../../api/sigops.rst:43
+msgid "ROCSHMEM_PUT_SIGNAL"
+msgstr ""
+
+#: ../../api/sigops.rst:61
+msgid "The number of elements of size ``TYPE`` to transfer."
+msgstr ""
+
+#: ../../api/sigops.rst:68
+msgid ""
+"**Description:** This function writes contiguous data of ``nelems`` "
+"elements of ``TYPE`` from source on the calling PE to ``dest`` at ``pe``,"
+" then applies ``sig_op`` at ``sig_addr`` with the signal value. Valid "
+"``sig_op values`` are listed in SIGNAL_OPERATORS_. Valid ``TYPENAME`` and"
+" ``TYPE`` values are listed in :ref:`RMA_TYPES`."
+msgstr ""
+
+#: ../../api/sigops.rst:75
+msgid "ROCSHMEM_PUTMEM_SIGNAL_ON_STREAM"
+msgstr ""
+
+#: ../../api/sigops.rst:79
+msgid ""
+"Destination address on the remote PE. Must be an address on the symmetric"
+" heap."
+msgstr ""
+
+#: ../../api/sigops.rst:80
+msgid "Source address on the local PE. Must be an address on the symmetric heap."
+msgstr ""
+
+#: ../../api/sigops.rst:82
+msgid ""
+"Address of signal variable on the remote PE. Must be an address on the "
+"symmetric heap."
+msgstr ""
+
+#: ../../api/sigops.rst:83
+msgid "Signal value to be written."
+msgstr ""
+
+#: ../../api/sigops.rst:84
+msgid "Signal operation (ROCSHMEM_SIGNAL_SET or ROCSHMEM_SIGNAL_ADD)."
+msgstr ""
+
+#: ../../api/sigops.rst:85
+msgid "PE number of the remote PE."
+msgstr ""
+
+#: ../../api/sigops.rst:89
+msgid ""
+"**Description:** This routine enqueues a put-with-signal operation on a "
+"HIP stream. The function writes contiguous data of ``nelems`` bytes from "
+"source on the calling PE to ``dest`` at ``pe``, then applies ``sig_op`` "
+"at ``sig_addr`` with the signal value. The operation is enqueued on the "
+"specified stream and will execute asynchronously. The caller must "
+"synchronize the stream (e.g., using ``hipStreamSynchronize``) to ensure "
+"completion."
+msgstr ""
+
+#: ../../api/sigops.rst:96
+msgid "Valid ``sig_op`` values are listed in SIGNAL_OPERATORS_."
+msgstr ""
+
+#: ../../api/sigops.rst:99
+msgid "ROCSHMEM_SIGNAL_FETCH"
+msgstr ""
+
+#: ../../api/sigops.rst:106
+msgid "Value at ``sig_addr``."
+msgstr ""
+
+#: ../../api/sigops.rst:108
+msgid ""
+"**Description:** This function atomically fetches the value stored at "
+"``sig_addr``."
+msgstr ""
+
+#: ../../api/sigops.rst:112
+msgid "Signal operators"
+msgstr ""
+
+#: ../../api/sigops.rst:115
+msgid "Signal Operators"
+msgstr ""
+
+#: ../../api/sigops.rst:119
+msgid "Value"
+msgstr ""
+
+#: ../../api/sigops.rst:121
+msgid "ROCSHMEM_SIGNAL_SET"
+msgstr ""
+
+#: ../../api/sigops.rst:122
+msgid ""
+"The signaling operation routines will atomically set the signal value at "
+"``sig_addr``."
+msgstr ""
+
+#: ../../api/sigops.rst:123
+msgid "ROCSHMEM_SIGNAL_ADD"
+msgstr ""
+
+#: ../../api/sigops.rst:124
+msgid ""
+"The signaling operation routines will atomically add the signal value at "
+"``sig_addr``."
+msgstr ""
+
+#: ../../api/teams.rst:9
+msgid "Team management routines"
+msgstr ""
+
+#: ../../api/teams.rst:12
+msgid "ROCSHMEM_TEAM_MY_PE"
+msgstr ""
+
+#: ../../api/teams.rst:16 ../../api/teams.rst:27
+msgid "The team to query."
+msgstr ""
+
+#: ../../api/teams.rst:17
+msgid "PE ID of the caller in the provided team."
+msgstr ""
+
+#: ../../api/teams.rst:19
+msgid "**Description:** This routine queries the PE ID of the caller in a team."
+msgstr ""
+
+#: ../../api/teams.rst:23
+msgid "ROCSHMEM_TEAM_N_PES"
+msgstr ""
+
+#: ../../api/teams.rst:28
+msgid "Number of PEs in the provided team."
+msgstr ""
+
+#: ../../api/teams.rst:30
+msgid "**Description:** This routine queries the number of PEs in a team."
+msgstr ""
+
+#: ../../api/teams.rst:34
+msgid "ROCSHMEM_TEAM_TRANSLATE_PE"
+msgstr ""
+
+#: ../../api/teams.rst:38
+msgid "Handle of the team from which to translate."
+msgstr ""
+
+#: ../../api/teams.rst:39
+msgid "PE-of-interest's index in ``src_team``."
+msgstr ""
+
+#: ../../api/teams.rst:40
+msgid "Handle of the team to which to translate."
+msgstr ""
+
+#: ../../api/teams.rst:41
+msgid ""
+"PE of ``src_pe`` in ``dest_team``. If any input is invalid or if "
+"``src_pe`` is not in both source and destination teams, a value of ``-1``"
+" is returned."
+msgstr ""
+
+#: ../../api/teams.rst:45
+msgid ""
+"**Description:** This routine translates the PE in ``src_team`` to that "
+"in ``dest_team``."
+msgstr ""
+
+#: ../../api/teams.rst:49
+msgid "ROCSHMEM_TEAM_SPLIT_STRIDED"
+msgstr ""
+
+#: ../../api/teams.rst:53
+msgid "The team to split from."
+msgstr ""
+
+#: ../../api/teams.rst:54
+msgid ""
+"The lowest PE number of the subset of the PEs from the parent team that "
+"will form the new team."
+msgstr ""
+
+#: ../../api/teams.rst:57
+msgid ""
+"The stride between team PE members in the parent team that comprise the "
+"subset of PEs that will form the new team."
+msgstr ""
+
+#: ../../api/teams.rst:60
+msgid "The number of PEs in the new team."
+msgstr ""
+
+#: ../../api/teams.rst:61
+msgid "Pointer to the config parameters for the new team."
+msgstr ""
+
+#: ../../api/teams.rst:62
+msgid "Bitwise mask representing parameters to use from config."
+msgstr ""
+
+#: ../../api/teams.rst:63
+msgid ""
+"Pointer to the newly created team. If an error occurs during team "
+"creation, or if the PE in the parent team is not in the new team, the "
+"value will be ``ROCSHMEM_TEAM_INVALID``."
+msgstr ""
+
+#: ../../api/teams.rst:68
+msgid "Zero upon successful team creation; non-zero if erroneous."
+msgstr ""
+
+#: ../../api/teams.rst:70
+msgid ""
+"**Description:** This routine creates a new a team of PEs. It must be "
+"called by all PEs in the parent team."
+msgstr ""
+
+#: ../../api/teams.rst:74
+msgid "ROCSHMEM_TEAM_DESTROY"
+msgstr ""
+
+#: ../../api/teams.rst:78
+msgid ""
+"The team to destroy. The behavior is undefined if the input team is "
+"``ROCSHMEM_TEAM_WORLD`` or any other invalid team. If the input is "
+"``ROCSHMEM_TEAM_INVALID``, this function will not perform any operation."
+msgstr ""
+
+#: ../../api/teams.rst:85
+msgid ""
+"**Description:** This routine destroys a team. It must be called by all "
+"PEs in the team. You must destroy all private contexts created in the "
+"team before destroying this team. Otherwise, the behavior is undefined. "
+"This call will destroy only the shareable contexts created from the "
+"referenced team."
+msgstr ""
+

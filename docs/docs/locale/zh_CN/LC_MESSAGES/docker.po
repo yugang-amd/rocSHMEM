@@ -1,0 +1,271 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Copyright (c) 2025 Advanced Micro Devices, Inc. All rights
+# reserved.
+# This file is distributed under the same license as the rocSHMEM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: rocSHMEM 3.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-22 13:38-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../docker.rst:-1
+msgid "Instructions for building and running rocSHMEM using Docker containers."
+msgstr ""
+
+#: ../../docker.rst:-1
+msgid "rocSHMEM, ROCm, Docker, container, build, run, GDA, IPC, RO"
+msgstr ""
+
+#: ../../docker.rst:9
+msgid "Using the rocSHMEM Docker container"
+msgstr ""
+
+#: ../../docker.rst:11
+msgid ""
+"rocSHMEM provides a Dockerfile in ``docker/Dockerfile.ubuntu`` that "
+"builds a development container with all backends, MPI support, and "
+"optional PR testing."
+msgstr ""
+
+#: ../../docker.rst:15
+msgid "Building the container image"
+msgstr ""
+
+#: ../../docker.rst:17
+msgid "Build the default image from the ``docker/`` directory:"
+msgstr ""
+
+#: ../../docker.rst:25
+msgid "Build arguments"
+msgstr ""
+
+#: ../../docker.rst:27
+msgid "``PR_NUM``"
+msgstr ""
+
+#: ../../docker.rst:28
+msgid ""
+"Build and test a specific pull request branch alongside the ``develop`` "
+"branch."
+msgstr ""
+
+#: ../../docker.rst:34
+msgid "When set, the container includes two build directories:"
+msgstr ""
+
+#: ../../docker.rst:36
+msgid "``/app/build`` -- the ``develop`` branch build"
+msgstr ""
+
+#: ../../docker.rst:37
+msgid "``/app/build<PR_NUM>`` -- the PR branch build (default working directory)"
+msgstr ""
+
+#: ../../docker.rst:39
+msgid "``SSH_PORT``"
+msgstr ""
+
+#: ../../docker.rst:40
+msgid "Change the SSH port used by the internal SSH server (default: ``2222``)."
+msgstr ""
+
+#: ../../docker.rst:47
+msgid "Base image"
+msgstr ""
+
+#: ../../docker.rst:49
+msgid ""
+"The default base image is ``rocm/dev-ubuntu-24.04:latest``. Alternative "
+"base images are listed in the Dockerfile comments. To build with DeepEP "
+"or VLLM support, use a ``rocm/pytorch`` base image and uncomment the "
+"optional dependency sections in the Dockerfile."
+msgstr ""
+
+#: ../../docker.rst:55
+msgid "Distributing the image"
+msgstr ""
+
+#: ../../docker.rst:57
+msgid "To transfer the image to compute nodes:"
+msgstr ""
+
+#: ../../docker.rst:66
+msgid "Running containers"
+msgstr ""
+
+#: ../../docker.rst:68
+msgid ""
+"All ``docker run`` invocations require device and network access flags. "
+"The base set of flags is:"
+msgstr ""
+
+#: ../../docker.rst:88
+msgid ""
+"GDA backends require vendor-specific host driver libraries to be bind-"
+"mounted into the container. See :ref:`docker-nic-drivers` for details."
+msgstr ""
+
+#: ../../docker.rst:92
+msgid "Verifying the setup"
+msgstr ""
+
+#: ../../docker.rst:94
+msgid "Print InfiniBand/RoCE device information:"
+msgstr ""
+
+#: ../../docker.rst:105
+msgid "Print rocSHMEM build and hardware information:"
+msgstr ""
+
+#: ../../docker.rst:119
+msgid "NIC driver bind mounts"
+msgstr ""
+
+#: ../../docker.rst:121
+msgid ""
+"GDA backends require host NIC driver libraries that match the firmware on"
+" the NIC. These must be bind-mounted into the container at run time."
+msgstr ""
+
+#: ../../docker.rst:124
+msgid "**Broadcom Thor2:**"
+msgstr ""
+
+#: ../../docker.rst:131
+msgid "**AMD Pensando Pollara (ionic):**"
+msgstr ""
+
+#: ../../docker.rst:142
+msgid "Launching persistent multi-node containers"
+msgstr ""
+
+#: ../../docker.rst:144
+msgid ""
+"The default container command starts ``rocshmem_info`` then launches an "
+"SSH daemon, which enables ``mpiexec`` across containers. Use a job "
+"launcher (``srun``, ``pdsh``, Kubernetes, etc.) to deploy containers on "
+"multiple nodes:"
+msgstr ""
+
+#: ../../docker.rst:160
+msgid ""
+"All containers must use the same Docker image so they share the same SSH "
+"key generated during the build. Alternatively, import an invariant SSH "
+"key pair by uncommenting the ``COPY id_ed25519`` lines in the Dockerfile."
+msgstr ""
+
+#: ../../docker.rst:165
+msgid "Running tests"
+msgstr ""
+
+#: ../../docker.rst:167
+msgid ""
+"Run a single functional test (for example, ``rocshmem_waveput_nbi``) with"
+" 16 workgroups and 256 threads per workgroup inside persistent "
+"containers:"
+msgstr ""
+
+#: ../../docker.rst:176
+msgid "Run the full functional test suite:"
+msgstr ""
+
+#: ../../docker.rst:185
+msgid "Container directory layout"
+msgstr ""
+
+#: ../../docker.rst:187
+msgid "The container organizes files as follows:"
+msgstr ""
+
+#: ../../docker.rst:192
+msgid "Path"
+msgstr ""
+
+#: ../../docker.rst:193
+msgid "Description"
+msgstr ""
+
+#: ../../docker.rst:194
+msgid "``/app/build``"
+msgstr ""
+
+#: ../../docker.rst:195
+msgid "Build of the ``develop`` branch"
+msgstr ""
+
+#: ../../docker.rst:196
+msgid "``/app/build<PR_NUM>``"
+msgstr ""
+
+#: ../../docker.rst:197
+msgid "Build of the PR branch (only when ``PR_NUM`` is set)"
+msgstr ""
+
+#: ../../docker.rst:198
+msgid "``/app/rocm-systems/projects/rocshmem``"
+msgstr ""
+
+#: ../../docker.rst:199
+msgid "Source directory (full git repository)"
+msgstr ""
+
+#: ../../docker.rst:200
+msgid "``/root/rocshmem``"
+msgstr ""
+
+#: ../../docker.rst:201
+msgid "Default install prefix"
+msgstr ""
+
+#: ../../docker.rst:202
+msgid "``/app/ompi``"
+msgstr ""
+
+#: ../../docker.rst:203
+msgid "Open MPI build with UCX support"
+msgstr ""
+
+#: ../../docker.rst:206
+msgid "Environment variables"
+msgstr ""
+
+#: ../../docker.rst:208
+msgid "The container sets the following environment variables by default:"
+msgstr ""
+
+#: ../../docker.rst:210
+msgid "``ROCSHMEM_TEST_UUID=1``"
+msgstr ""
+
+#: ../../docker.rst:211
+msgid "``ROCSHMEM_HEAP_SIZE=6442450944`` (6 GiB)"
+msgstr ""
+
+#: ../../docker.rst:212
+msgid "``OMPI_MCA_plm_rsh_args=-p<SSH_PORT>``"
+msgstr ""
+
+#: ../../docker.rst:213
+msgid "``OMPI_ALLOW_RUN_AS_ROOT=1``"
+msgstr ""
+
+#: ../../docker.rst:215
+msgid ""
+"Additional environment variables for specific cluster configurations are "
+"available as comments in the Dockerfile. For a full list of rocSHMEM "
+"environment variables, see :doc:`Environment variables "
+"<./api/env_variables>`."
+msgstr ""
+
