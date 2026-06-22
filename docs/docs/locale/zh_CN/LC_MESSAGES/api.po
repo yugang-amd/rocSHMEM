@@ -4,20 +4,21 @@
 # This file is distributed under the same license as the rocSHMEM package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: rocSHMEM 3.3.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-06-22 13:38-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2026-06-22 18:11+0000\n"
+"Last-Translator: DeepL <noreply-mt-deepl@weblate.org>\n"
+"Language-Team: Chinese (Simplified Han script) <http://localhost/projects/"
+"rocshmem/api-doc/zh_Hans/>\n"
 "Language: zh_CN\n"
-"Language-Team: zh_CN <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
 "Generated-By: Babel 2.17.0\n"
 
 #: ../../api/amo.rst:-1 ../../api/coll.rst:-1 ../../api/ctx.rst:-1
@@ -27,35 +28,35 @@ msgstr ""
 msgid ""
 "rocSHMEM intra-kernel networking runtime for AMD dGPUs on the ROCm "
 "platform."
-msgstr ""
+msgstr "rocSHMEM——ROCm 平台上适用于 AMD 独立显卡的内核间网络运行时。"
 
 #: ../../api/amo.rst:-1 ../../api/coll.rst:-1 ../../api/ctx.rst:-1
 #: ../../api/init.rst:-1 ../../api/memory_management.rst:-1
 #: ../../api/memory_ordering.rst:-1 ../../api/pt2pt_sync.rst:-1
 #: ../../api/rma.rst:-1 ../../api/sigops.rst:-1 ../../api/teams.rst:-1
 msgid "rocSHMEM, API, ROCm, documentation, HIP, Networking, Communication"
-msgstr ""
+msgstr "rocSHMEM、API、ROCm、文档、HIP、网络、通信"
 
 #: ../../api/amo.rst:9
 msgid "Atomic memory operations"
-msgstr ""
+msgstr "原子内存操作"
 
 #: ../../api/amo.rst:11
 msgid ""
 "You can call these functions from divergent control paths at the per-"
 "thread level."
-msgstr ""
+msgstr "您可以在线程级别从不同的控制路径调用这些函数。"
 
 #: ../../api/amo.rst:14
 msgid "ROSHMEM_ATOMIC_FETCH"
-msgstr ""
+msgstr "ROSHMEM_ATOMIC_FETCH"
 
 #: ../../api/amo.rst ../../api/coll.rst ../../api/ctx.rst ../../api/init.rst
 #: ../../api/memory_management.rst ../../api/memory_ordering.rst
 #: ../../api/pt2pt_sync.rst ../../api/rma.rst ../../api/sigops.rst
 #: ../../api/teams.rst
 msgid "Parameters"
-msgstr ""
+msgstr "参数"
 
 #: ../../api/amo.rst:18 ../../api/amo.rst:35 ../../api/amo.rst:54
 #: ../../api/amo.rst:76 ../../api/amo.rst:96 ../../api/amo.rst:115
@@ -68,7 +69,7 @@ msgstr ""
 #: ../../api/rma.rst:121 ../../api/rma.rst:148 ../../api/rma.rst:183
 #: ../../api/sigops.rst:27 ../../api/sigops.rst:58
 msgid "Context with which to perform this operation."
-msgstr ""
+msgstr "执行此操作的上下文。"
 
 #: ../../api/amo.rst:19 ../../api/amo.rst:36 ../../api/amo.rst:55
 #: ../../api/amo.rst:77 ../../api/amo.rst:97 ../../api/amo.rst:116
@@ -81,7 +82,7 @@ msgstr ""
 #: ../../api/rma.rst:96 ../../api/rma.rst:149 ../../api/rma.rst:164
 #: ../../api/sigops.rst:28 ../../api/sigops.rst:59
 msgid "Destination address. Must be an address on the symmetric heap."
-msgstr ""
+msgstr "目标地址。必须是对称堆上的一个地址。"
 
 #: ../../api/amo.rst:20 ../../api/amo.rst:38 ../../api/amo.rst:58
 #: ../../api/amo.rst:79 ../../api/amo.rst:98 ../../api/amo.rst:117
@@ -92,36 +93,36 @@ msgstr ""
 #: ../../api/rma.rst:125 ../../api/rma.rst:152 ../../api/rma.rst:167
 #: ../../api/rma.rst:185 ../../api/sigops.rst:34 ../../api/sigops.rst:65
 msgid "PE of the remote process."
-msgstr ""
+msgstr "远程进程的 PE。"
 
 #: ../../api/amo.rst ../../api/coll.rst ../../api/ctx.rst ../../api/init.rst
 #: ../../api/memory_management.rst ../../api/memory_ordering.rst
 #: ../../api/pt2pt_sync.rst ../../api/rma.rst ../../api/sigops.rst
 #: ../../api/teams.rst
 msgid "Returns"
-msgstr ""
+msgstr "退货"
 
 #: ../../api/amo.rst:22
 msgid "The value of ``dest``."
-msgstr ""
+msgstr "``dest `` 的值。"
 
 #: ../../api/amo.rst:24
 msgid ""
 "**Description:** This function atomically returns the value of ``dest`` "
 "to the calling PE."
-msgstr ""
+msgstr "** 说明：** 该函数以原子方式将`dest`的值返回给调用该函数的 PE。"
 
 #: ../../api/amo.rst:27 ../../api/amo.rst:45 ../../api/amo.rst:87
 msgid "Valid ``TYPENAME`` and ``TYPE`` values are listed in EXTENDED_AMO_TYPES_."
-msgstr ""
+msgstr "有效的 ``TYPENAME `` 和 ``TYPE `` 值列于 EXTENDED_AMO_TYPES_ 中。"
 
 #: ../../api/amo.rst:31
 msgid "SHMEM_ATOMIC_SET"
-msgstr ""
+msgstr "SHMEM_ATOMIC_SET"
 
 #: ../../api/amo.rst:37
 msgid "The value to be atomically set."
-msgstr ""
+msgstr "要原子式设置的值。"
 
 #: ../../api/amo.rst:40 ../../api/amo.rst:119 ../../api/amo.rst:159
 #: ../../api/amo.rst:239 ../../api/amo.rst:279 ../../api/coll.rst:18
@@ -141,31 +142,31 @@ msgstr ""
 #: ../../api/rma.rst:170 ../../api/sigops.rst:35 ../../api/sigops.rst:66
 #: ../../api/sigops.rst:87
 msgid "None."
-msgstr ""
+msgstr "无。"
 
 #: ../../api/amo.rst:42
 msgid ""
 "**Description:** This function atomically sets the value ``value`` to "
 "``dest`` on ``pe``."
-msgstr ""
+msgstr "** 说明：** 该函数以原子方式将`value`的值设置为`dest`，其中`pe`。"
 
 #: ../../api/amo.rst:48
 msgid "SHMEM_ATOMIC_COMPARE_SWAP"
-msgstr ""
+msgstr "SHMEM_ATOMIC_COMPARE_SWAP"
 
 #: ../../api/amo.rst:56
 msgid "The value to be compare with."
-msgstr ""
+msgstr "待比较的值。"
 
 #: ../../api/amo.rst:57 ../../api/amo.rst:78
 msgid "The value to be atomically swapped."
-msgstr ""
+msgstr "要进行原子交换的值。"
 
 #: ../../api/amo.rst:60 ../../api/amo.rst:81 ../../api/amo.rst:100
 #: ../../api/amo.rst:139 ../../api/amo.rst:179 ../../api/amo.rst:219
 #: ../../api/amo.rst:259
 msgid "The old value of ``dest``."
-msgstr ""
+msgstr "``dest `` 的旧值。"
 
 #: ../../api/amo.rst:62
 msgid ""
@@ -174,149 +175,164 @@ msgid ""
 "operation returns the older value of ``dest`` to the calling PE. The "
 "operation is blocking."
 msgstr ""
+"** 说明：** 该函数原子性地比较`dest `中的值与`cond `中的值。如果两者相等，则"
+"将`value `存储到`dest `中。该操作将`dest `中的旧值返回给调用该操作的PE。该操"
+"作是阻塞的。"
 
 #: ../../api/amo.rst:67 ../../api/amo.rst:106 ../../api/amo.rst:125
 #: ../../api/amo.rst:145
 msgid "Valid ``TYPENAME`` and ``TYPE`` values are listed in STANDARD_AMO_TYPES_."
-msgstr ""
+msgstr "STANDARD_AMO_TYPES_ 中列出了有效的 ``TYPENAME `` 以及 ``TYPE `` 值。"
 
 #: ../../api/amo.rst:70
 msgid "SHMEM_ATOMIC_SWAP"
-msgstr ""
+msgstr "SHMEM_ATOMIC_SWAP"
 
 #: ../../api/amo.rst:83
 msgid ""
 "**Description:** This function atomically swaps the value ``val`` with "
 "``dest`` on ``pe``. The operation is blocking."
 msgstr ""
+"** 说明：** 该函数以原子操作的方式，将 ``val `` 与 ``dest `` 在 ``pe `` 上进"
+"行交换。该操作是阻塞的。"
 
 #: ../../api/amo.rst:90
 msgid "SHMEM_ATOMIC_FETCH_INC"
-msgstr ""
+msgstr "SHMEM_ATOMIC_FETCH_INC"
 
 #: ../../api/amo.rst:102 ../../api/amo.rst:121
 msgid ""
 "**Description:** This function atomically adds ``1`` to ``dest`` on "
 "``pe``. The operation is blocking."
 msgstr ""
+"** 说明：** 该函数将 ``1 `` 原子性地添加到 ``dest `` 上，地址为 ``pe ``。该操"
+"作是阻塞的。"
 
 #: ../../api/amo.rst:109
 msgid "SHMEM_ATOMIC_INC"
-msgstr ""
+msgstr "SHMEM_ATOMIC_INC"
 
 #: ../../api/amo.rst:128
 msgid "SHMEM_ATOMIC_FETCH_ADD"
-msgstr ""
+msgstr "SHMEM_ATOMIC_FETCH_ADD"
 
 #: ../../api/amo.rst:136 ../../api/amo.rst:156
 msgid "The value to be atomically added."
-msgstr ""
+msgstr "要原子式添加的值。简体中文（大陆）"
 
 #: ../../api/amo.rst:141 ../../api/amo.rst:161
 msgid ""
 "**Description:** This function atomically adds ``value`` to ``dest`` on "
 "``pe``. The operation is blocking."
 msgstr ""
+"** 说明：** 该函数将 ``value `` 原子性地添加到 ``dest `` 上，地址为 ``pe ``。"
+"该操作是阻塞的。"
 
 #: ../../api/amo.rst:148
 msgid "SHMEM_ATOMIC_ADD"
-msgstr ""
+msgstr "SHMEM_ATOMIC_ADD"
 
 #: ../../api/amo.rst:165
 msgid "Valid ``TYPENAME`` and ``TYPE`` values can be seen in STANDARD_AMO_TYPES_."
-msgstr ""
+msgstr "在 STANDARD_AMO_TYPES_ 中可以查看到有效的 ``TYPENAME `` 以及 ``TYPE `` 值。"
 
 #: ../../api/amo.rst:168
 msgid "SHMEM_ATOMIC_FETCH_AND"
-msgstr ""
+msgstr "SHMEM_ATOMIC_FETCH_AND"
 
 #: ../../api/amo.rst:176 ../../api/amo.rst:196
 msgid "The value to be atomically ``AND``."
-msgstr ""
+msgstr "该值应为原子操作``AND ``。"
 
 #: ../../api/amo.rst:181 ../../api/amo.rst:201
 msgid ""
 "**Description:** This function atomically bitwise-and ``value`` to the "
 "value at ``dest`` on ``pe``. The operation is blocking."
 msgstr ""
+"** 说明：** 该函数将 ``value `` 与 ``dest `` 所在位置的值进行原子位与运算，结"
+"果存储在 ``pe `` 中。该操作是阻塞的。"
 
 #: ../../api/amo.rst:185 ../../api/amo.rst:205 ../../api/amo.rst:225
 #: ../../api/amo.rst:245 ../../api/amo.rst:265 ../../api/amo.rst:285
 msgid "Valid ``TYPENAME`` and ``TYPE`` values are listed in BITWISE_AMO_TYPES_."
-msgstr ""
+msgstr "BITWISE_AMO_TYPES_ 中列出了有效的 ``TYPENAME `` 和 ``TYPE `` 值。"
 
 #: ../../api/amo.rst:188
 msgid "SHMEM_ATOMIC_AND"
-msgstr ""
+msgstr "SHMEM_ATOMIC_AND"
 
 #: ../../api/amo.rst:199 ../../api/teams.rst:83
 msgid "None"
-msgstr ""
+msgstr "无"
 
 #: ../../api/amo.rst:208
 msgid "SHMEM_ATOMIC_FETCH_OR"
-msgstr ""
+msgstr "SHMEM_ATOMIC_FETCH_OR"
 
 #: ../../api/amo.rst:216 ../../api/amo.rst:236
 msgid "The value to be atomically ``OR``."
-msgstr ""
+msgstr "该值应为原子操作``OR ``。"
 
 #: ../../api/amo.rst:221 ../../api/amo.rst:241
 msgid ""
 "**Description:** This function atomically bitwise-or ``value`` to the "
 "value at ``dest`` on ``pe``. The operation is blocking."
 msgstr ""
+"** 说明：** 该函数将 ``value `` 与 ``dest `` 所在位置的值进行原子位或运算，结"
+"果存储在 ``pe `` 处。该操作是阻塞的。"
 
 #: ../../api/amo.rst:228
 msgid "SHMEM_ATOMIC_OR"
-msgstr ""
+msgstr "SHMEM_ATOMIC_OR"
 
 #: ../../api/amo.rst:248
 msgid "SHMEM_ATOMIC_FETCH_XOR"
-msgstr ""
+msgstr "SHMEM_ATOMIC_FETCH_XOR"
 
 #: ../../api/amo.rst:256 ../../api/amo.rst:276
 msgid "The value to be atomically ``XOR``."
-msgstr ""
+msgstr "该值应为原子操作``XOR ``。"
 
 #: ../../api/amo.rst:261 ../../api/amo.rst:281
 msgid ""
 "**Description:** This function atomically bitwise-xor ``value`` to the "
 "value at ``dest`` on ``pe``. The operation is blocking."
 msgstr ""
+"** 描述：** 该函数对 ``value `` 与 ``dest `` 中的值进行原子位异或运算，运算结"
+"果存储在 ``pe `` 中。该操作是阻塞的。"
 
 #: ../../api/amo.rst:268
 msgid "SHMEM_ATOMIC_XOR"
-msgstr ""
+msgstr "SHMEM_ATOMIC_XOR"
 
 #: ../../api/amo.rst:288
 msgid "Supported AMO data types"
-msgstr ""
+msgstr "支持的 AMO 数据类型"
 
 #: ../../api/amo.rst:292
 msgid "Standard AMO Data Types"
-msgstr ""
+msgstr "标准 AMO 数据类型"
 
 #: ../../api/amo.rst:296 ../../api/amo.rst:342 ../../api/amo.rst:394
 #: ../../api/coll.rst:237 ../../api/rma.rst:203
 msgid "TYPE"
-msgstr ""
+msgstr "类型"
 
 #: ../../api/amo.rst:297 ../../api/amo.rst:343 ../../api/amo.rst:395
 #: ../../api/coll.rst:238 ../../api/rma.rst:204
 msgid "TYPENAME"
-msgstr ""
+msgstr "类型名称"
 
 #: ../../api/amo.rst:298 ../../api/amo.rst:344 ../../api/amo.rst:396
 #: ../../api/coll.rst:240 ../../api/rma.rst:205
 msgid "Supported"
-msgstr ""
+msgstr "已支持"
 
 #: ../../api/amo.rst:299 ../../api/amo.rst:300 ../../api/amo.rst:351
 #: ../../api/amo.rst:352 ../../api/coll.rst:253 ../../api/coll.rst:254
 #: ../../api/rma.rst:224 ../../api/rma.rst:225
 msgid "int"
-msgstr ""
+msgstr "int"
 
 #: ../../api/amo.rst:301 ../../api/amo.rst:304 ../../api/amo.rst:307
 #: ../../api/amo.rst:310 ../../api/amo.rst:313 ../../api/amo.rst:316
@@ -337,139 +353,139 @@ msgstr ""
 #: ../../api/rma.rst:238 ../../api/rma.rst:241 ../../api/rma.rst:244
 #: ../../api/rma.rst:247 ../../api/rma.rst:259
 msgid "Yes"
-msgstr ""
+msgstr "是"
 
 #: ../../api/amo.rst:302 ../../api/amo.rst:303 ../../api/amo.rst:354
 #: ../../api/amo.rst:355 ../../api/coll.rst:257 ../../api/coll.rst:258
 #: ../../api/rma.rst:227 ../../api/rma.rst:228
 msgid "long"
-msgstr ""
+msgstr "长"
 
 #: ../../api/amo.rst:305 ../../api/amo.rst:357 ../../api/coll.rst:261
 #: ../../api/rma.rst:230
 msgid "long long"
-msgstr ""
+msgstr "长长"
 
 #: ../../api/amo.rst:306 ../../api/amo.rst:358 ../../api/coll.rst:262
 #: ../../api/rma.rst:231
 msgid "longlong"
-msgstr ""
+msgstr "longlong"
 
 #: ../../api/amo.rst:308 ../../api/amo.rst:360 ../../api/amo.rst:397
 #: ../../api/coll.rst:277 ../../api/rma.rst:239
 msgid "unsigned int"
-msgstr ""
+msgstr "unsigned int"
 
 #: ../../api/amo.rst:309 ../../api/amo.rst:361 ../../api/amo.rst:398
 #: ../../api/coll.rst:278 ../../api/rma.rst:240
 msgid "uint"
-msgstr ""
+msgstr "uint"
 
 #: ../../api/amo.rst:311 ../../api/amo.rst:363 ../../api/amo.rst:400
 #: ../../api/coll.rst:281 ../../api/rma.rst:242
 msgid "unsigned long"
-msgstr ""
+msgstr "unsigned long"
 
 #: ../../api/amo.rst:312 ../../api/amo.rst:364 ../../api/amo.rst:401
 #: ../../api/coll.rst:282 ../../api/rma.rst:243
 msgid "ulong"
-msgstr ""
+msgstr "ulong"
 
 #: ../../api/amo.rst:314 ../../api/amo.rst:366 ../../api/amo.rst:403
 #: ../../api/coll.rst:285 ../../api/rma.rst:245
 msgid "unsigned long long"
-msgstr ""
+msgstr "unsigned long long"
 
 #: ../../api/amo.rst:315 ../../api/amo.rst:367 ../../api/amo.rst:404
 #: ../../api/coll.rst:286 ../../api/rma.rst:246
 msgid "ulonglong"
-msgstr ""
+msgstr "ulonglong简体中文（大陆）"
 
 #: ../../api/amo.rst:317 ../../api/amo.rst:369 ../../api/amo.rst:406
 #: ../../api/coll.rst:297 ../../api/rma.rst:254
 msgid "int32_t"
-msgstr ""
+msgstr "int32_t"
 
 #: ../../api/amo.rst:318 ../../api/amo.rst:370 ../../api/amo.rst:407
 #: ../../api/coll.rst:298 ../../api/rma.rst:255
 msgid "int32"
-msgstr ""
+msgstr "int32"
 
 #: ../../api/amo.rst:320 ../../api/amo.rst:372 ../../api/amo.rst:409
 #: ../../api/coll.rst:301 ../../api/rma.rst:257
 msgid "int64_t"
-msgstr ""
+msgstr "int64_t"
 
 #: ../../api/amo.rst:321 ../../api/amo.rst:373 ../../api/amo.rst:410
 #: ../../api/coll.rst:302 ../../api/rma.rst:258
 msgid "int64"
-msgstr ""
+msgstr "int64"
 
 #: ../../api/amo.rst:323 ../../api/amo.rst:375 ../../api/amo.rst:412
 #: ../../api/coll.rst:313 ../../api/rma.rst:266
 msgid "uint32_t"
-msgstr ""
+msgstr "uint32_t"
 
 #: ../../api/amo.rst:324 ../../api/amo.rst:376 ../../api/amo.rst:413
 #: ../../api/coll.rst:314 ../../api/rma.rst:267
 msgid "uint32"
-msgstr ""
+msgstr "uint32"
 
 #: ../../api/amo.rst:326 ../../api/amo.rst:378 ../../api/amo.rst:415
 #: ../../api/coll.rst:317 ../../api/rma.rst:269
 msgid "uint64_t"
-msgstr ""
+msgstr "uint64_t"
 
 #: ../../api/amo.rst:327 ../../api/amo.rst:379 ../../api/amo.rst:416
 #: ../../api/coll.rst:318 ../../api/rma.rst:270
 msgid "uint64"
-msgstr ""
+msgstr "uint64"
 
 #: ../../api/amo.rst:329 ../../api/amo.rst:381 ../../api/coll.rst:321
 #: ../../api/rma.rst:272
 msgid "size_t"
-msgstr ""
+msgstr "size_t"
 
 #: ../../api/amo.rst:330 ../../api/amo.rst:382 ../../api/coll.rst:322
 #: ../../api/rma.rst:273
 msgid "size"
-msgstr ""
+msgstr "大小"
 
 #: ../../api/amo.rst:332 ../../api/amo.rst:384 ../../api/coll.rst:265
 #: ../../api/rma.rst:275
 msgid "ptrdiff_t"
-msgstr ""
+msgstr "ptrdiff_t"
 
 #: ../../api/amo.rst:333 ../../api/amo.rst:385 ../../api/coll.rst:266
 #: ../../api/rma.rst:276
 msgid "ptrdiff"
-msgstr ""
+msgstr "ptrdiff"
 
 #: ../../api/amo.rst:338
 msgid "Extended AMO Data Types"
-msgstr ""
+msgstr "扩展的 AMO 数据类型"
 
 #: ../../api/amo.rst:345 ../../api/amo.rst:346 ../../api/coll.rst:325
 #: ../../api/coll.rst:326 ../../api/rma.rst:206 ../../api/rma.rst:207
 msgid "float"
-msgstr ""
+msgstr "float"
 
 #: ../../api/amo.rst:348 ../../api/amo.rst:349 ../../api/coll.rst:329
 #: ../../api/coll.rst:330 ../../api/rma.rst:209 ../../api/rma.rst:210
 msgid "double"
-msgstr ""
+msgstr "双"
 
 #: ../../api/amo.rst:390
 msgid "Bitwise AMO Data Types"
-msgstr ""
+msgstr "Bitwise AMO 数据类型"
 
 #: ../../api/coll.rst:9
 msgid "Collective routines"
-msgstr ""
+msgstr "集体训练"
 
 #: ../../api/coll.rst:12
 msgid "ROCSHMEM_BARRIER_ALL"
-msgstr ""
+msgstr "ROCSHMEM_BARRIER_ALL"
 
 #: ../../api/coll.rst:20
 msgid ""
@@ -479,16 +495,19 @@ msgid ""
 "called from only one thread/wavefront/workgroup within the grid to avoid "
 "undefined behavior."
 msgstr ""
+"** 描述：** 该例程在系统中的所有处理元素（PE）上执行一个集合屏障操作。调用方"
+"将被阻塞，直到屏障解析完成且所有本地和远程更新均已完成。为避免出现未定义行为"
+"，这些 API 应仅由网格内的单个线程/波前/工作组调用。"
 
 #: ../../api/coll.rst:26
 msgid "ROCSHMEM_BARRIER_ALL_ON_STREAM"
-msgstr ""
+msgstr "ROCSHMEM_BARRIER_ALL_ON_STREAM"
 
 #: ../../api/coll.rst:30 ../../api/coll.rst:115 ../../api/coll.rst:179
 #: ../../api/pt2pt_sync.rst:107 ../../api/rma.rst:79 ../../api/rma.rst:168
 #: ../../api/sigops.rst:86
 msgid "HIP stream on which to enqueue the operation."
-msgstr ""
+msgstr "用于将该操作加入队列的 HIP 流。"
 
 #: ../../api/coll.rst:33
 msgid ""
@@ -498,30 +517,37 @@ msgid ""
 "asynchronously. The caller must synchronize the stream (e.g., using "
 "``hipStreamSynchronize``) to ensure completion."
 msgstr ""
+"** 说明：** 该例程将一个集体屏障操作加入 HIP 流的队列。该屏障操作将在系统中的"
+"所有处理元素（PE）上执行。该操作被加入指定的流中，并将异步执行。调用方必须对"
+"该流进行同步（例如，使用 ``hipStreamSynchronize ``），以确保操作完成。"
 
 #: ../../api/coll.rst:40
 msgid "ROCSHMEM_BARRIER"
-msgstr ""
+msgstr "ROCSHMEM_BARRIER"
 
 #: ../../api/coll.rst:49
 msgid ""
 "**Description:** This routine performs a collective barrier between all "
 "PEs in the system. The caller is blocked until the barrier is resolved."
 msgstr ""
+"** 说明：** 该例程在系统中的所有处理单元（PE）之间执行一次集体屏障操作。调用"
+"方将被阻塞，直到屏障操作完成为止。"
 
 #: ../../api/coll.rst:54
 msgid "ROCSHMEM_TEAM_SYNC"
-msgstr ""
+msgstr "ROCSHMEM_TEAM_SYNC"
 
 #: ../../api/coll.rst:61
 msgid "Team with which to perform this operation."
-msgstr ""
+msgstr "执行此操作的团队。"
 
 #: ../../api/coll.rst:64
 msgid ""
 "**Description:** This routine registers the arrival of a PE at a barrier."
 " The caller is blocked until the synchronization is resolved."
 msgstr ""
+"** 说明：** 该例程用于记录 PE 到达屏障时的事件。调用方将被阻塞，直到同步操作"
+"完成。"
 
 #: ../../api/coll.rst:68
 msgid ""
@@ -530,10 +556,12 @@ msgid ""
 " but does not ensure the completion of remote memory updates issued via "
 "OpenSHMEM routines."
 msgstr ""
+"与`shmem_barrier_all ` 例程不同，`shmem_team_sync ` 仅保证先前发出的内存存储"
+"操作已完成且可见，但不保证通过 OpenSHMEM 例程发出的远程内存更新已完成。"
 
 #: ../../api/coll.rst:73
 msgid "ROCSHMEM_SYNC_ALL"
-msgstr ""
+msgstr "ROCSHMEM_SYNC_ALL"
 
 #: ../../api/coll.rst:81
 msgid ""
@@ -542,16 +570,18 @@ msgid ""
 " be called from only one thread/wavefront/workgroup within the grid to "
 "avoid undefined behavior."
 msgstr ""
+"** 说明：** 这些例程在世界团队上调用时，其行为与 ``rocshmem_team_sync_* `` 相"
+"同。为避免出现未定义行为，这些 API 应仅在网格内的单个线程/波前/工作组中调用。"
 
 #: ../../api/coll.rst:86
 msgid "ROSHMEM_ALLTOALL"
-msgstr ""
+msgstr "ROSHMEM_ALLTOALL"
 
 #: ../../api/coll.rst:91 ../../api/coll.rst:111 ../../api/coll.rst:133
 #: ../../api/coll.rst:155 ../../api/coll.rst:174 ../../api/coll.rst:197
 #: ../../api/coll.rst:214
 msgid "The team participating in the collective."
-msgstr ""
+msgstr "参加该集体活动的团队。"
 
 #: ../../api/coll.rst:94 ../../api/coll.rst:113 ../../api/coll.rst:137
 #: ../../api/coll.rst:158 ../../api/coll.rst:176 ../../api/coll.rst:200
@@ -560,12 +590,12 @@ msgstr ""
 #: ../../api/rma.rst:165 ../../api/rma.rst:184 ../../api/sigops.rst:29
 #: ../../api/sigops.rst:60
 msgid "Source address. Must be an address on the symmetric heap."
-msgstr ""
+msgstr "源地址。必须是对称堆上的一个地址。"
 
 #: ../../api/coll.rst:96 ../../api/coll.rst:160 ../../api/coll.rst:202
 #: ../../api/coll.rst:219
 msgid "Number of data blocks transferred per pair of PEs."
-msgstr ""
+msgstr "每对 PE 传输的数据块数量。"
 
 #: ../../api/coll.rst:99
 msgid ""
@@ -573,18 +603,20 @@ msgid ""
 " blocks between all pairs of PEs participating in the collective routine."
 " This function must be called as a work-group collective."
 msgstr ""
+"** 描述：** 该例程在参与集体操作的所有处理元素（PE）对之间交换固定数量的连续"
+"数据块。该函数必须作为工作组集体操作调用。"
 
 #: ../../api/coll.rst:104 ../../api/coll.rst:167
 msgid "Valid ``TYPENAME`` and ``TYPE`` values are listed in :ref:`RMA_TYPES`."
-msgstr ""
+msgstr "有效的 ``TYPENAME `` 和 ``TYPE `` 值列于 :ref:`RMA_TYPES` 中。"
 
 #: ../../api/coll.rst:107
 msgid "ROCSHMEM_ALLTOALLMEM_ON_STREAM"
-msgstr ""
+msgstr "ROCSHMEM_ALLTOALLMEM_ON_STREAM"
 
 #: ../../api/coll.rst:114
 msgid "Number of bytes to transfer per pair of PEs."
-msgstr ""
+msgstr "每对 PE 需传输的字节数。"
 
 #: ../../api/coll.rst:118
 msgid ""
@@ -595,6 +627,10 @@ msgid ""
 "asynchronously. The caller must synchronize the stream (e.g., using "
 "``hipStreamSynchronize``) to ensure completion."
 msgstr ""
+"** 描述：** 该例程将一个全对全（all-to-all）集体操作加入 HIP 流的队列。该函数"
+"在参与集体操作的所有处理元素（PE）两两之间交换固定数量的连续数据块。 该操作被"
+"加入到指定的流中，并将异步执行。调用方必须对流进行同步（例如，使用 "
+"``hipStreamSynchronize ``），以确保操作完成。"
 
 #: ../../api/coll.rst:125 ../../api/coll.rst:188
 msgid ""
@@ -602,26 +638,28 @@ msgid ""
 "contention on the default context, allowing parallel execution across "
 "multiple streams."
 msgstr ""
+"该函数为每个工作组创建一个独立的上下文，以避免对默认上下文的争用，从而支持跨"
+"多个流的并行执行。"
 
 #: ../../api/coll.rst:129
 msgid "ROCSHMEM_ALLTOALLV"
-msgstr ""
+msgstr "ROCSHMEM_ALLTOALLV"
 
 #: ../../api/coll.rst:135
 msgid "Array containing number of elements to receive from each participating PE"
-msgstr ""
+msgstr "包含从每个参与的PE接收的元素个数的数组"
 
 #: ../../api/coll.rst:136
 msgid "Array of offsets into dest buffer for each participating PE"
-msgstr ""
+msgstr "每个参与的处理单元（PE）在目标缓冲区中的偏移量数组"
 
 #: ../../api/coll.rst:138
 msgid "Array containing number of elements to send from each participating PE"
-msgstr ""
+msgstr "包含每个参与的PE需发送的元素数量的数组"
 
 #: ../../api/coll.rst:139
 msgid "Array of offsets into source buffer for each participating PE"
-msgstr ""
+msgstr "每个参与的处理单元（PE）在源缓冲区中的偏移量数组"
 
 #: ../../api/coll.rst:143
 msgid ""
@@ -631,32 +669,38 @@ msgid ""
 "must be called as a work-group collective. Valid TYPENAME and TYPE values"
 " are listed in :ref:`RMA_TYPES`."
 msgstr ""
+"** 说明：**PE i 将源地址 source 加上 source_displs[j] 处的数据 "
+"source_nelems[j] 发送给 PE j。同时，PE i 接收来自 PE j 的 dest_nelems[j] 数据"
+"，并将该数据放置在 dest 加上 dest_displs[j] 处。 此函数必须作为工作组集体操作"
+"调用。有效的 TYPENAME 和 TYPE 值列于 :ref:`RMA_TYPES` 中。"
 
 #: ../../api/coll.rst:150
 msgid "ROCSHMEM_BROADCAST"
-msgstr ""
+msgstr "ROCSHMEM_BROADCAST"
 
 #: ../../api/coll.rst:154 ../../api/coll.rst:196 ../../api/coll.rst:213
 msgid "Context with which to perform this collective."
-msgstr ""
+msgstr "进行此次集体表演的背景。"
 
 #: ../../api/coll.rst:163
 msgid ""
 "**Description:** This routine performs a broadcast across PEs in the "
 "team. The caller is blocked until the broadcast completes."
 msgstr ""
+"** 说明：** 该例程会在团队中的所有处理单元（PE）上执行广播操作。调用方将被阻"
+"塞，直到广播完成。"
 
 #: ../../api/coll.rst:170
 msgid "ROCSHMEM_BROADCASTMEM_ON_STREAM"
-msgstr ""
+msgstr "ROCSHMEM_BROADCASTMEM_ON_STREAM"
 
 #: ../../api/coll.rst:177
 msgid "Number of bytes to broadcast."
-msgstr ""
+msgstr "要广播的字节数。"
 
 #: ../../api/coll.rst:178
 msgid "Root PE (relative to team) from which to broadcast."
-msgstr ""
+msgstr "用于广播的（相对于团队的）根 PE。"
 
 #: ../../api/coll.rst:182
 msgid ""
@@ -667,60 +711,68 @@ msgid ""
 "caller must synchronize the stream (e.g., using ``hipStreamSynchronize``)"
 " to ensure completion."
 msgstr ""
+"** 说明：** 该例程将一个广播集体操作加入 HIP 流的队列。该函数将数据从根 PE 广"
+"播到参与该集体例程的所有其他 PE。该操作被加入指定流的队列，并将异步执行。调用"
+"方必须对该流进行同步（例如，使用 ``hipStreamSynchronize ``），以确保操作完成"
+"。"
 
 #: ../../api/coll.rst:192
 msgid "ROCSHMEM_FCOLLECT"
-msgstr ""
+msgstr "ROCSHMEM_FCOLLECT"
 
 #: ../../api/coll.rst:205
 msgid ""
 "**Description:** This routine concatenates blocks of data from multiple "
 "PEs to an array in every PE participating in the collective routine."
 msgstr ""
+"** 描述：** 该例程将来自多个处理元素（PE）的数据块拼接到参与该集合例程的每个"
+"处理元素（PE）中的一个数组中。"
 
 #: ../../api/coll.rst:210
 msgid "ROCSHMEM_REDUCTION"
-msgstr ""
+msgstr "ROCSHMEM_REDUCTION"
 
 #: ../../api/coll.rst:220
 msgid "Zero on successful local completion. Nonzero otherwise."
-msgstr ""
+msgstr "在本地成功完成时返回 0。否则返回非零值。"
 
 #: ../../api/coll.rst:223
 msgid ""
 "**Description:** This routine  performs an allreduce operation across PEs"
 " in the team."
-msgstr ""
+msgstr "** 描述：** 该例程在团队中的各个处理元素（PEs）上执行 allreduce 操作。"
 
 #: ../../api/coll.rst:226
 msgid ""
 "Valid ``TYPENAME``, ``TYPE``, and ``OPNAME`` values are listed in "
 ":ref:`REDUCE_TYPES`."
 msgstr ""
+"有效的 ``TYPENAME ``、``TYPE `` 以及 ``OPNAME `` 值列于 :ref:`REDUCE_TYPES` "
+"中。"
 
 #: ../../api/coll.rst:229
 msgid "Supported reduction types and operations"
-msgstr ""
+msgstr "支持的简化类型和运算"
 
 #: ../../api/coll.rst:233
 msgid "Reduction Types, Names and Operations"
-msgstr ""
+msgstr "归约类型、名称与运算"
 
 #: ../../api/coll.rst:239
 msgid "OPNAME"
-msgstr ""
+msgstr "OPNAME"
 
 #: ../../api/coll.rst:241 ../../api/coll.rst:242 ../../api/rma.rst:215
 #: ../../api/rma.rst:216
 msgid "char"
-msgstr ""
+msgstr "char"
 
 #: ../../api/coll.rst:243 ../../api/coll.rst:247 ../../api/coll.rst:251
 #: ../../api/coll.rst:255 ../../api/coll.rst:259 ../../api/coll.rst:263
 #: ../../api/coll.rst:267 ../../api/coll.rst:327 ../../api/coll.rst:331
 #: ../../api/coll.rst:335
 msgid "max, min, sum, prod"
-msgstr ""
+msgstr "max、min、sum、prod"
 
 #: ../../api/coll.rst:244 ../../api/coll.rst:248 ../../api/coll.rst:268
 #: ../../api/coll.rst:272 ../../api/coll.rst:276 ../../api/coll.rst:280
@@ -733,28 +785,28 @@ msgstr ""
 #: ../../api/rma.rst:262 ../../api/rma.rst:265 ../../api/rma.rst:268
 #: ../../api/rma.rst:271 ../../api/rma.rst:274 ../../api/rma.rst:277
 msgid "No"
-msgstr ""
+msgstr "不"
 
 #: ../../api/coll.rst:245 ../../api/rma.rst:218
 msgid "signed char"
-msgstr ""
+msgstr "signed char"
 
 #: ../../api/coll.rst:246 ../../api/rma.rst:219
 msgid "schar"
-msgstr ""
+msgstr "schar"
 
 #: ../../api/coll.rst:249 ../../api/coll.rst:250 ../../api/rma.rst:221
 #: ../../api/rma.rst:222
 msgid "short"
-msgstr ""
+msgstr "简短"
 
 #: ../../api/coll.rst:269 ../../api/rma.rst:233
 msgid "unsigned char"
-msgstr ""
+msgstr "unsigned char"
 
 #: ../../api/coll.rst:270 ../../api/rma.rst:234
 msgid "uchar"
-msgstr ""
+msgstr "uchar"
 
 #: ../../api/coll.rst:271 ../../api/coll.rst:275 ../../api/coll.rst:279
 #: ../../api/coll.rst:283 ../../api/coll.rst:287 ../../api/coll.rst:291
@@ -762,97 +814,97 @@ msgstr ""
 #: ../../api/coll.rst:307 ../../api/coll.rst:311 ../../api/coll.rst:315
 #: ../../api/coll.rst:319 ../../api/coll.rst:323
 msgid "and, or, xor, max, min, sum, prod"
-msgstr ""
+msgstr "and、or、xor、max、min、sum、prod"
 
 #: ../../api/coll.rst:273 ../../api/rma.rst:236
 msgid "unsigned short"
-msgstr ""
+msgstr "unsigned short"
 
 #: ../../api/coll.rst:274 ../../api/rma.rst:237
 msgid "ushort"
-msgstr ""
+msgstr "ushort"
 
 #: ../../api/coll.rst:289 ../../api/rma.rst:248
 msgid "int8_t"
-msgstr ""
+msgstr "int8_t"
 
 #: ../../api/coll.rst:290 ../../api/rma.rst:249
 msgid "int8"
-msgstr ""
+msgstr "int8"
 
 #: ../../api/coll.rst:293 ../../api/rma.rst:251
 msgid "int16_t"
-msgstr ""
+msgstr "int16_t"
 
 #: ../../api/coll.rst:294 ../../api/rma.rst:252
 msgid "int16"
-msgstr ""
+msgstr "int16"
 
 #: ../../api/coll.rst:305 ../../api/rma.rst:260
 msgid "uint8_t"
-msgstr ""
+msgstr "uint8_t"
 
 #: ../../api/coll.rst:306 ../../api/rma.rst:261
 msgid "uint8"
-msgstr ""
+msgstr "uint8"
 
 #: ../../api/coll.rst:309 ../../api/rma.rst:263
 msgid "uint16_t"
-msgstr ""
+msgstr "uint16_t"
 
 #: ../../api/coll.rst:310 ../../api/rma.rst:264
 msgid "uint16"
-msgstr ""
+msgstr "uint16"
 
 #: ../../api/coll.rst:333 ../../api/rma.rst:212
 msgid "long double"
-msgstr ""
+msgstr "long double"
 
 #: ../../api/coll.rst:334 ../../api/rma.rst:213
 msgid "longdouble"
-msgstr ""
+msgstr "longdouble"
 
 #: ../../api/coll.rst:337
 msgid "double _Complex"
-msgstr ""
+msgstr "double _Complex"
 
 #: ../../api/coll.rst:338
 msgid "complexd"
-msgstr ""
+msgstr "complexd"
 
 #: ../../api/coll.rst:339 ../../api/coll.rst:343
 msgid "sum, prod"
-msgstr ""
+msgstr "sum, prod"
 
 #: ../../api/coll.rst:341
 msgid "float _Complex"
-msgstr ""
+msgstr "float _Complex"
 
 #: ../../api/coll.rst:342
 msgid "complexf"
-msgstr ""
+msgstr "complexf"
 
 #: ../../api/ctx.rst:9
 msgid "Context management routines"
-msgstr ""
+msgstr "上下文管理例程"
 
 #: ../../api/ctx.rst:12
 msgid "ROCSHMEM_CTX_CREATE"
-msgstr ""
+msgstr "ROCSHMEM_CTX_CREATE"
 
 #: ../../api/ctx.rst:17
 msgid "Team handle to derive the context from."
-msgstr ""
+msgstr "用于推导上下文的团队标识符。"
 
 #: ../../api/ctx.rst:18
 msgid ""
 "Options for context creation. Ignored in current design; use the value "
 "``0``."
-msgstr ""
+msgstr "上下文创建选项。在当前设计中被忽略；请使用值``0 ``。"
 
 #: ../../api/ctx.rst:19
 msgid "A handle to the newly created context."
-msgstr ""
+msgstr "新创建的上下文的句柄。"
 
 #: ../../api/ctx.rst:21
 msgid ""
@@ -861,6 +913,9 @@ msgid ""
 "``ROCSHMEM_CTX_INVALID`` and a higher number of "
 "``ROCSHMEM_MAX_NUM_CONTEXTS`` is required."
 msgstr ""
+"如果上下文创建成功，所有线程都会返回`0 `。如果任何线程返回非零值，则操作失败"
+"，ctx将被设置为`ROCSHMEM_CTX_INVALID `，此时需要更大"
+"的`ROCSHMEM_MAX_NUM_CONTEXTS `。"
 
 #: ../../api/ctx.rst:25
 msgid ""
@@ -874,14 +929,19 @@ msgid ""
 " remains in a correct state. The creation call can be reattempted after "
 "additional resources become available."
 msgstr ""
+"** 说明：**该例程用于创建一个 rocSHMEM 上下文。按设计，该上下文仅供调用该例程"
+"的工作组私有使用。工作组中的所有线程必须集体调用该例程。 如果上下文创建成功，"
+"则返回零，且由 ctx 指向的上下文句柄指定一个有效的上下文；否则，返回非零值，并"
+"将 ctx 设置为 ``ROCSHMEM_CTX_INVALID ``。上下文创建调用失败不会被视为错误，"
+"rocSHMEM 库仍保持在正确状态。 当有更多资源可用时，可以重新尝试该创建调用。"
 
 #: ../../api/ctx.rst:34
 msgid "ROCSHMEM_CTX_DESTROY"
-msgstr ""
+msgstr "ROCSHMEM_CTX_DESTROY"
 
 #: ../../api/ctx.rst:38
 msgid "Context handle."
-msgstr ""
+msgstr "上下文句柄。"
 
 #: ../../api/ctx.rst:42
 msgid ""
@@ -889,14 +949,16 @@ msgid ""
 "called collectively by all threads in the work-group. If ctx has the "
 "value ``ROCSHMEM_CTX_INVALID``, no operation is performed."
 msgstr ""
+"** 说明：** 此例程用于销毁一个 rocSHMEM 上下文。工作组中的所有线程必须集体调"
+"用此例程。如果 ctx 的值为 ``ROCSHMEM_CTX_INVALID ``，则不执行任何操作。"
 
 #: ../../api/ctx.rst:47
 msgid "ROCSHMEM_GET_DEVICE_CTX"
-msgstr ""
+msgstr "ROCSHMEM_GET_DEVICE_CTX"
 
 #: ../../api/ctx.rst
 msgid "param"
-msgstr ""
+msgstr "param简体中文（大陆）"
 
 #: ../../api/ctx.rst:53
 msgid ""
@@ -905,336 +967,346 @@ msgid ""
 "module initialization in kernel bitcode device library in the same "
 "application."
 msgstr ""
+"返回`ROCSHMEM_CTX_DEFAULT``设备指针，用户可从rocSHMEM主机库的一个实例中查询该"
+"指针，并随后在同一应用程序中将其用于内核位码设备库中的动态模块初始化。"
 
 #: ../../api/ctx.rst:58
 msgid ""
 "**Description:** This routine queries rocSHMEM default device context "
 "from host API."
-msgstr ""
+msgstr "** 说明：** 该例程通过主机 API 查询 rocSHMEM 的默认设备上下文。"
 
 #: ../../api/env_variables.rst:-1
 msgid "rocSHMEM environment variables reference"
-msgstr ""
+msgstr "rocSHMEM 环境变量参考"
 
 #: ../../api/env_variables.rst:-1
 msgid "rocSHMEM, ROCm, API, environment variables, environment, reference"
-msgstr ""
+msgstr "rocSHMEM、ROCm、API、环境变量、环境、参考资料"
 
 #: ../../api/env_variables.rst:9
 msgid "rocSHMEM environment variables"
-msgstr ""
+msgstr "rocSHMEM 环境变量"
 
 #: ../../api/env_variables.rst:11
 msgid ""
 "This section describes the important environment variables used to "
 "control the behavior of rocSHMEM."
-msgstr ""
+msgstr "本节介绍了用于控制 rocSHMEM 行为的重要环境变量。"
 
 #: ../../api/env_variables.rst:18
 msgid "**Environment variable**"
-msgstr ""
+msgstr "** 环境变量**"
 
 #: ../../api/env_variables.rst:19
 msgid "**Default value**"
-msgstr ""
+msgstr "** 默认值**"
 
 #: ../../api/env_variables.rst:20
 msgid "**Value**"
-msgstr ""
+msgstr "** 值**"
 
 #: ../../api/env_variables.rst
 msgid "``ROCSHMEM_HEAP_SIZE``"
-msgstr ""
+msgstr "``ROCSHMEM_HEAP_SIZE``"
 
 #: ../../api/env_variables.rst
 msgid "Defines the size of the rocSHMEM symmetric heap in bytes (per PE)."
-msgstr ""
+msgstr "定义 rocSHMEM 对称堆的大小（以字节为单位，按每个 PE 计算）。"
 
 #: ../../api/env_variables.rst:24
 msgid "``1073741824`` (1 GB)"
-msgstr ""
+msgstr "``1073741824 `` (1 GB)"
 
 #: ../../api/env_variables.rst
 msgid "Size in bytes (per PE)."
-msgstr ""
+msgstr "大小（以字节为单位）（每个 PE）。"
 
 #: ../../api/env_variables.rst
 msgid "Note: the heap is on GPU memory."
-msgstr ""
+msgstr "注：堆位于 GPU 内存中。"
 
 #: ../../api/env_variables.rst
 msgid "``ROCSHMEM_MAX_NUM_CONTEXTS``"
-msgstr ""
+msgstr "``ROCSHMEM_MAX_NUM_CONTEXTS``"
 
 #: ../../api/env_variables.rst
 msgid "Defines the number of contexts an application can use."
-msgstr ""
+msgstr "定义了应用程序可以使用的情境数量。"
 
 #: ../../api/env_variables.rst:30
 msgid "``32``"
-msgstr ""
+msgstr "``32``"
 
 #: ../../api/env_variables.rst:31
 msgid "Maximum number of contexts."
-msgstr ""
+msgstr "上下文的最大数量。"
 
 #: ../../api/env_variables.rst
 msgid "``ROCSHMEM_MAX_NUM_TEAMS``"
-msgstr ""
+msgstr "``ROCSHMEM_MAX_NUM_TEAMS``"
 
 #: ../../api/env_variables.rst
 msgid "Defines the number of teams an application can use."
-msgstr ""
+msgstr "定义了应用程序可使用的团队数量。"
 
 #: ../../api/env_variables.rst:35
 msgid "``40``"
-msgstr ""
+msgstr "``40``"
 
 #: ../../api/env_variables.rst:36
 msgid "Maximum number of teams."
-msgstr ""
+msgstr "队伍的最大数量。"
 
 #: ../../api/env_variables.rst
 msgid "``ROCSHMEM_BACKEND``"
-msgstr ""
+msgstr "``ROCSHMEM_BACKEND``"
 
 #: ../../api/env_variables.rst
 msgid "When rocSHMEM is compiled for all backends, this enviroment variable"
-msgstr ""
+msgstr "当 rocSHMEM 针对所有后端进行编译时，该环境变量"
 
 #: ../../api/env_variables.rst
 msgid ""
 "selects which backend to execute. The default value is an empty string "
 "and rocSHMEM auto-selects the most appropriate backend."
-msgstr ""
+msgstr "用于选择要执行的后端。默认值为空字符串，rocSHMEM 会自动选择最合适的后端。"
 
 #: ../../api/env_variables.rst:41 ../../api/env_variables.rst:61
 #: ../../api/env_variables.rst:69 ../../api/env_variables.rst:76
 #: ../../api/env_variables.rst:83
 msgid "`` ``"
-msgstr ""
+msgstr "`` ``"
 
 #: ../../api/env_variables.rst
 msgid "``ipc``: IPC Backend"
-msgstr ""
+msgstr "``ipc ``: IPC 后端"
 
 #: ../../api/env_variables.rst
 msgid "``ro``: Reverse Offload Backend"
-msgstr ""
+msgstr "``ro ``: 反向卸载后端"
 
 #: ../../api/env_variables.rst
 msgid "``gda``: GPU Direct Async Backend"
-msgstr ""
+msgstr "``gda ``: GPU 直接异步后端"
 
 #: ../../api/env_variables.rst
 msgid "``ROCSHMEM_UNIQUEID_WITH_MPI``"
-msgstr ""
+msgstr "``ROCSHMEM_UNIQUEID_WITH_MPI``"
 
 #: ../../api/env_variables.rst
 msgid ""
 "Defines whether rocSHMEM is expected to use MPI when using the uniqueId "
 "based initialization."
-msgstr ""
+msgstr "指定在使用基于 uniqueId 的初始化时，rocSHMEM 是否应使用 MPI。"
 
 #: ../../api/env_variables.rst:48 ../../api/env_variables.rst:54
 #: ../../api/env_variables.rst:97 ../../api/env_variables.rst:102
 #: ../../api/env_variables.rst:108
 msgid "``0``"
-msgstr ""
+msgstr "``0``"
 
 #: ../../api/env_variables.rst
 msgid "``0``: Do not use MPI."
-msgstr ""
+msgstr "``0 ``: 请勿使用 MPI。"
 
 #: ../../api/env_variables.rst
 msgid "``1``: Use MPI."
-msgstr ""
+msgstr "``1 ``: 使用 MPI。"
 
 #: ../../api/env_variables.rst
 msgid "``ROCSHMEM_DISABLE_MIXED_IPC``"
-msgstr ""
+msgstr "``ROCSHMEM_DISABLE_MIXED_IPC``"
 
 #: ../../api/env_variables.rst
 msgid ""
 "Defines whether to force using the network conduit even when IPC is "
 "available."
-msgstr ""
+msgstr "指定即使IPC可用时，是否仍强制使用网络通道。"
 
 #: ../../api/env_variables.rst
 msgid "``0``: Use IPC when available."
-msgstr ""
+msgstr "``0 ``: 如有可用，请使用IPC。"
 
 #: ../../api/env_variables.rst
 msgid "``1``: Force network conduit."
-msgstr ""
+msgstr "``1 ``: 强制使用网络管道。"
 
 #: ../../api/env_variables.rst
 msgid "``ROCSHMEM_USE_IB_HCA``"
-msgstr ""
+msgstr "``ROCSHMEM_USE_IB_HCA``"
 
 #: ../../api/env_variables.rst
 msgid ""
 "Forces the NIC that this PE uses. When this value is set NIC auto-"
 "detection and mapping is disabled, the NIC specified in the variable"
 msgstr ""
+"强制指定此 PE 使用的网络适配器。设置此值后，将禁用网络适配器的自动检测和映射"
+"功能，此时将使用该变量中指定的网络适配器"
 
 #: ../../api/env_variables.rst
 msgid ""
 "will be selected. The default value is an empty string and rocSHMEM auto-"
 "detects the most appropriate NIC."
-msgstr ""
+msgstr "将被选中。默认值为空字符串，rocSHMEM 会自动检测最合适的网卡。"
 
 #: ../../api/env_variables.rst
 msgid "Example value: ``bnxt_re0``"
-msgstr ""
+msgstr "示例值：``bnxt_re0 ``"
 
 #: ../../api/env_variables.rst
 msgid "``ROCSHMEM_HCA_LIST``"
-msgstr ""
+msgstr "``ROCSHMEM_HCA_LIST``"
 
 #: ../../api/env_variables.rst
 msgid ""
 "Comma separated list of NIC names that can be used by rocSHMEM. Unlike "
 "``ROCSHMEM_USE_IB_HCA``, when this variable is set,"
 msgstr ""
+"rocSHMEM 可使用的网卡名称列表，以逗号分隔。与``ROCSHMEM_USE_IB_HCA `` 不同，"
+"当设置此变量时，"
 
 #: ../../api/env_variables.rst
 msgid ""
 "NIC auto-detection and mapping still executes, but NICs that are not in "
 "the list are discarded before auto-detection runs."
 msgstr ""
+"网卡的自动检测和映射仍会执行，但在自动检测运行之前，列表中未包含的网卡会被剔"
+"除。"
 
 #: ../../api/env_variables.rst
 msgid ""
 "Prefixing the list with ``^`` turns the list in an *exclude* list, NICs "
 "that are in the list are discarded before auto-detection runs."
 msgstr ""
+"在列表开头添加 ``^ ``，即可将该列表转换为 * 中的排除 * 列表；列表中的网卡将在"
+"自动检测运行前被排除。"
 
 #: ../../api/env_variables.rst
 msgid ""
 "The default value is an empty string and rocSHMEM auto-detects the most "
 "appropriate NIC."
-msgstr ""
+msgstr "默认值为空字符串，rocSHMEM 会自动检测最合适的网卡。"
 
 #: ../../api/env_variables.rst
 msgid "Example value: ``bnxt_re1,bnxt_re11``, ``^mlx5_0,mlx5_3``"
-msgstr ""
+msgstr "示例值：``bnxt_re1,bnxt_re11 ``, ``^mlx5_0,mlx5_3 ``"
 
 #: ../../api/env_variables.rst
 msgid "``ROCSHMEM_BOOTSTRAP_SOCKET_IFNAME``"
-msgstr ""
+msgstr "``ROCSHMEM_BOOTSTRAP_SOCKET_IFNAME``"
 
 #: ../../api/env_variables.rst
 msgid "Chooses the interface to bootstrap rocSHMEM with."
-msgstr ""
+msgstr "选择用于启动 rocSHMEM 的接口。"
 
 #: ../../api/env_variables.rst
 msgid "Only valid when not using MPI."
-msgstr ""
+msgstr "仅在不使用 MPI 时有效。"
 
 #: ../../api/env_variables.rst
 msgid ""
 "The default value is an empty string and rocSHMEM auto-detects the most "
 "appropriate interface."
-msgstr ""
+msgstr "默认值为空字符串，rocSHMEM 会自动检测最合适的接口。"
 
 #: ../../api/env_variables.rst
 msgid "Example value: ``eno8303``"
-msgstr ""
+msgstr "示例值：``eno8303 ``"
 
 #: ../../api/env_variables.rst
 msgid "``ROCSHMEM_GDA_PROVIDER``"
-msgstr ""
+msgstr "``ROCSHMEM_GDA_PROVIDER``"
 
 #: ../../api/env_variables.rst
 msgid "When rocSHMEM is compiled with support for multiple NIC vendors,"
-msgstr ""
+msgstr "当 rocSHMEM 在编译时支持多个网卡厂商时，"
 
 #: ../../api/env_variables.rst
 msgid "the enviroment variable selects the desired provider."
-msgstr ""
+msgstr "该环境变量用于选择所需的提供程序。"
 
 #: ../../api/env_variables.rst
 msgid "``bnxt``: Broadcom Thor 2"
-msgstr ""
+msgstr "``bnxt ``: Broadcom Thor 2"
 
 #: ../../api/env_variables.rst
 msgid "``pensando``: AMD Pensando Pollara"
-msgstr ""
+msgstr "``pensando ``: AMD Pensando Pollara"
 
 #: ../../api/env_variables.rst
 msgid "``ionic``: AMD Pensando Pollara (alias)"
-msgstr ""
+msgstr "``ionic ``: AMD Pensando Pollara（别名）"
 
 #: ../../api/env_variables.rst
 msgid "``mlx5``: Mellanox ConnectX-7"
-msgstr ""
+msgstr "``mlx5 ``: Mellanox ConnectX-7"
 
 #: ../../api/env_variables.rst
 msgid "``ROCSHMEM_GDA_ALTERNATE_QP_PORTS``"
-msgstr ""
+msgstr "``ROCSHMEM_GDA_ALTERNATE_QP_PORTS``"
 
 #: ../../api/env_variables.rst
 msgid "Enables or disables alternating QP mappings across rocSHMEM contexts."
-msgstr ""
+msgstr "启用或禁用跨 rocSHMEM 上下文的交替 QP 映射。"
 
 #: ../../api/env_variables.rst:91
 msgid "``1``"
-msgstr ""
+msgstr "``1``"
 
 #: ../../api/env_variables.rst
 msgid "``0``: Disabled."
-msgstr ""
+msgstr "``0 ``: 已禁用。"
 
 #: ../../api/env_variables.rst
 msgid ""
 "``1``: Enabled. This helps saturate bandwidth on multiport bonded "
 "interfaces."
-msgstr ""
+msgstr "``1 ``: 已启用。这有助于使多端口绑定接口的带宽达到饱和。"
 
 #: ../../api/env_variables.rst
 msgid "``ROCSHMEM_GDA_TRAFFIC_CLASS``"
-msgstr ""
+msgstr "``ROCSHMEM_GDA_TRAFFIC_CLASS``"
 
 #: ../../api/env_variables.rst
 msgid ""
 "When using an NIC with an Ethernet link layer, this sets the traffic "
 "class for the QPs."
-msgstr ""
+msgstr "在使用具有以太网链路层的网卡时，此设置将确定 QP 的流量类别。"
 
 #: ../../api/env_variables.rst:98
 msgid "The traffic class number."
-msgstr ""
+msgstr "交通类别编号。"
 
 #: ../../api/env_variables.rst
 msgid "``ROCSHMEM_GDA_PCIE_RELAXED_ORDERING``"
-msgstr ""
+msgstr "``ROCSHMEM_GDA_PCIE_RELAXED_ORDERING``"
 
 #: ../../api/env_variables.rst
 msgid ""
 "Enables PCIe Relaxed Ordering when registering the symmetric heap with "
 "the RDMA NICs."
-msgstr ""
+msgstr "在将对称堆注册到 RDMA 网卡时，启用 PCIe 宽松排序。"
 
 #: ../../api/env_variables.rst
 msgid "``1``: Enabled."
-msgstr ""
+msgstr "``1 ``: 已启用。"
 
 #: ../../api/env_variables.rst
 msgid "``ROCSHMEM_GDA_ENABLE_DMABUF``"
-msgstr ""
+msgstr "``ROCSHMEM_GDA_ENABLE_DMABUF``"
 
 #: ../../api/env_variables.rst
 msgid "Enable dmabuf support for memory registration."
-msgstr ""
+msgstr "启用 dmabuf 对内存注册的支持。"
 
 #: ../../api/init.rst:9
 msgid "Library setup, exit, and query routines"
-msgstr ""
+msgstr "库的初始化、退出和查询例程"
 
 #: ../../api/init.rst:12
 msgid "ROCSHMEM_INIT"
-msgstr ""
+msgstr "ROCSHMEM_INIT"
 
 #: ../../api/init.rst:19
 msgid ""
@@ -1243,10 +1315,15 @@ msgid ""
 "select the device that this PE is associated to by calling `hipSetDevice "
 "<https://rocm.docs.amd.com/projects/HIP/en/docs-6.0.0/doxygen/html/group___device.html#ga43c1e7f15925eeb762195ccb5e063eae>`_."
 msgstr ""
+"** 说明：** 此例程用于初始化 rocSHMEM 库及其底层传输层。在调用 "
+"``rocshmem_init `` 之前，必须通过调用 ` hipSetDevice <https://"
+"rocm.docs.amd.com/projects/HIP/en/docs-6.0.0/doxygen/html/"
+"group___device.html#ga43c1e7f15925eeb762195ccb5e063eae> `_ 来选择与该 PE 关联"
+"的设备。"
 
 #: ../../api/init.rst:27
 msgid "Routine `rocshmem_wg_init` has been deprecated."
-msgstr ""
+msgstr "例行程序 `rocshmem_wg_init` 已被废弃。"
 
 #: ../../api/init.rst:34
 msgid ""
@@ -1256,18 +1333,21 @@ msgid ""
 "functions. It must be called collectively by all threads in the work-"
 "group."
 msgstr ""
+"** 说明：** 此例程已弃用，请勿使用。此例程用于初始化设备端的 rocSHMEM 资源。"
+"在该工作组中的任何线程调用其他 rocSHMEM 函数之前，必须先调用此例程。该工作组"
+"中的所有线程必须集体调用此例程。"
 
 #: ../../api/init.rst:41
 msgid "ROCSHMEM_FINALIZE"
-msgstr ""
+msgstr "ROCSHMEM_FINALIZE"
 
 #: ../../api/init.rst:47
 msgid "**Description:** This routine finalizes the rocSHMEM library."
-msgstr ""
+msgstr "** 描述：** 该例程用于对 rocSHMEM 库进行最终处理。"
 
 #: ../../api/init.rst:51
 msgid "Routine `rocshmem_wg_finalize` has been deprecated."
-msgstr ""
+msgstr "例行程序 `rocshmem_wg_finalize` 已被废弃。"
 
 #: ../../api/init.rst:58
 msgid ""
@@ -1277,26 +1357,29 @@ msgid ""
 "``rocshmem_wg_init``. It must be called collectively by all threads in "
 "the work-group."
 msgstr ""
+"** 说明：** 此例程已弃用，请勿使用。此例程用于释放设备端的 rocSHMEM 资源。如"
+"果工作组还调用了 ``rocshmem_wg_init ``，则必须在工作组完成之前调用此例程。工"
+"作组中的所有线程必须集体调用此例程。"
 
 #: ../../api/init.rst:65
 msgid "ROCSHMEM_INIT_ATTR"
-msgstr ""
+msgstr "ROCSHMEM_INIT_ATTR"
 
 #: ../../api/init.rst:68
 msgid "The initialization method to be used."
-msgstr ""
+msgstr "要使用的初始化方法。"
 
 #: ../../api/init.rst:69
 msgid "Attribute structure specifying input characteristics."
-msgstr ""
+msgstr "指定输入特性的属性结构。"
 
 #: ../../api/init.rst
 msgid "returns int"
-msgstr ""
+msgstr "返回 int"
 
 #: ../../api/init.rst:71 ../../api/init.rst:84 ../../api/init.rst:98
 msgid "Returns ``0`` on success; otherwise, returns a nonzero value."
-msgstr ""
+msgstr "成功时返回``0 ``；否则，返回非零值。"
 
 #: ../../api/init.rst:73
 msgid ""
@@ -1305,100 +1388,111 @@ msgid ""
 "parameter ``flags`` can be either ``ROCSHMEM_INIT_WITH_UNIQUEID`` or "
 "``ROCSHMEM_INIT_WITH_MPI_COMM``."
 msgstr ""
+"** 说明：** 该例程使用提供的模式和属性初始化 rocSHMEM 运行时及其底层传输层。"
+"参数`flags``可以是`ROCSHMEM_INIT_WITH_UNIQUEID``，也可以"
+"是`ROCSHMEM_INIT_WITH_MPI_COMM``。"
 
 #: ../../api/init.rst:80
 msgid "ROCSHMEM_GET_UNIQUEID"
-msgstr ""
+msgstr "ROCSHMEM_GET_UNIQUEID"
 
 #: ../../api/init.rst:83
 msgid "Pointer to a unique ID handle."
-msgstr ""
+msgstr "指向唯一标识符句柄的指针。"
 
 #: ../../api/init.rst:86
 msgid "**Description:** This routine returns a unique ID."
-msgstr ""
+msgstr "** 说明：** 该例程返回一个唯一标识符。"
 
 #: ../../api/init.rst:90
 msgid "ROCSHMEM_SET_ATTR_UNIQUEID_ARGS"
-msgstr ""
+msgstr "ROCSHMEM_SET_ATTR_UNIQUEID_ARGS"
 
 #: ../../api/init.rst:93
 msgid "Rank of the calling process."
-msgstr ""
+msgstr "调用进程的级别。"
 
 #: ../../api/init.rst:94
 msgid "Number of PEs."
-msgstr ""
+msgstr "PE的数量。"
 
 #: ../../api/init.rst:95
 msgid "Unique ID used to identify the group processes."
-msgstr ""
+msgstr "用于标识组进程的唯一标识符。"
 
 #: ../../api/init.rst:96
 msgid "Attribute structure to be passed to ``rocshmem_init_attr_t``."
-msgstr ""
+msgstr "要传递给``rocshmem_init_attr_t ``的属性结构。"
 
 #: ../../api/init.rst:100
 msgid ""
 "**Description:** This routine initializes the ``rocshmem_init_attr_t`` "
 "struct."
-msgstr ""
+msgstr "** 描述：** 该例程用于初始化`rocshmem_init_attr_t `` 结构体。"
 
 #: ../../api/init.rst:104
 msgid "ROCSHMEM_N_PES"
-msgstr ""
+msgstr "ROCSHMEM_N_PES"
 
 #: ../../api/init.rst:109 ../../api/init.rst:119
 msgid "Total number of PEs."
-msgstr ""
+msgstr "私募股权基金总数。"
 
 #: ../../api/init.rst:111
 msgid ""
 "**Description:** This routine queries the total number of PEs. It can be "
 "called before ``rocshmem_init``."
 msgstr ""
+"** 说明：** 该例程用于查询 PE 的总数。可在调用 ``rocshmem_init `` 之前调用该"
+"例程。"
 
 #: ../../api/init.rst:118 ../../api/init.rst:140
 msgid "GPU side context handle."
-msgstr ""
+msgstr "GPU 侧上下文句柄。"
 
 #: ../../api/init.rst:121
 msgid ""
 "**Description:** This routine queries the total number of PEs for a given"
 " context. It can be called per thread with no performance penalty."
 msgstr ""
+"** 说明：** 该例程用于查询给定上下文中的 PE 总数。该例程可按线程调用，且不会"
+"造成性能开销。"
 
 #: ../../api/init.rst:126
 msgid "ROCSHMEM_MY_PE"
-msgstr ""
+msgstr "ROCSHMEM_MY_PE"
 
 #: ../../api/init.rst:131 ../../api/init.rst:141
 msgid "PE ID of the caller."
-msgstr ""
+msgstr "呼叫方的 PE ID。"
 
 #: ../../api/init.rst:133
 msgid ""
 "**Description:** This routine queries the PE ID of the caller. It can be "
 "called before ``rocshmem_init``."
 msgstr ""
+"** 说明：** 该例程用于查询调用者的 PE ID。可在调用 ``rocshmem_init `` 之前调"
+"用该例程。"
 
 #: ../../api/init.rst:143
 msgid ""
 "**Description:** This routine queries the PE ID of the caller. It can be "
 "called per thread with no performance penalty."
 msgstr ""
+"** 说明：** 该例程用于查询调用者的 PE ID。该例程可按线程调用，且不会造成性能"
+"开销。"
 
 #: ../../api/init.rst:148
 msgid "ROCSHMEM_PTR"
-msgstr ""
+msgstr "ROCSHMEM_PTR"
 
 #: ../../api/init.rst:153
 msgid "Local symmetric heap allocation pointer for current PE."
-msgstr ""
+msgstr "当前 PE 的本地对称堆分配指针。"
 
 #: ../../api/init.rst:154
 msgid "Remote PE."
-msgstr ""
+msgstr "远程体育课。"
 
 #: ../../api/init.rst:155
 msgid ""
@@ -1407,30 +1501,33 @@ msgid ""
 "can be used to issue load/store from custom kernels instead of using "
 "rocshmem device side get/put APIs for RMA operations."
 msgstr ""
+"从主机端 API 返回远程对称堆设备指针。``NULL ``。如果无法提供有效的设备指针，"
+"则返回此值。该指针可用于从自定义内核中发起加载/存储操作，从而替代 RMA 操作中 "
+"rocshmem 设备端的 get/put API。"
 
 #: ../../api/init.rst:160
 msgid ""
 "**Description:** This routine queries rocSHMEM remote symmetric heap "
 "pointer."
-msgstr ""
+msgstr "** 说明：** 该例程用于查询 rocSHMEM 远程对称堆指针。"
 
 #: ../../api/memory_management.rst:10
 msgid "Memory management routines"
-msgstr ""
+msgstr "内存管理例程"
 
 #: ../../api/memory_management.rst:13
 msgid "ROCSHMEM_MALLOC"
-msgstr ""
+msgstr "ROCSHMEM_MALLOC"
 
 #: ../../api/memory_management.rst:17
 msgid "Memory allocation size in bytes."
-msgstr ""
+msgstr "内存分配大小（以字节为单位）。"
 
 #: ../../api/memory_management.rst:18
 msgid ""
 "A pointer to the allocated memory on the symmetric heap. If a valid "
 "allocation cannot be made, it returns ``NULL``."
-msgstr ""
+msgstr "指向对称堆上已分配内存的指针。如果无法进行有效的内存分配，则返回`NULL``。"
 
 #: ../../api/memory_management.rst:21
 msgid ""
@@ -1438,14 +1535,16 @@ msgid ""
 " symmetric heap. This is a collective operation and must be called by all"
 " PEs."
 msgstr ""
+"** 说明：** 该例程从对称堆中分配`size`字节的内存。这是一项集体操作，必须由所"
+"有处理元素（PEs）共同调用。"
 
 #: ../../api/memory_management.rst:26
 msgid "ROCSHMEM_FREE"
-msgstr ""
+msgstr "ROCSHMEM_FREE"
 
 #: ../../api/memory_management.rst:30
 msgid "A pointer to previously allocated memory on the symmetric heap."
-msgstr ""
+msgstr "指向对称堆上先前已分配内存的指针。"
 
 #: ../../api/memory_management.rst:33
 msgid ""
@@ -1453,189 +1552,203 @@ msgid ""
 "symmetric heap. It is a collective operation and must be called by all "
 "PEs."
 msgstr ""
+"** 说明：** 该例程用于释放对称堆中分配的内存。这是一项集体操作，必须由所有 "
+"PE 调用。"
 
 #: ../../api/memory_ordering.rst:9
 msgid "Memory ordering routines"
-msgstr ""
+msgstr "内存排序例程"
 
 #: ../../api/memory_ordering.rst:12
 msgid "ROCSHMEM_FENCE"
-msgstr ""
+msgstr "ROCSHMEM_FENCE"
 
 #: ../../api/memory_ordering.rst:20
 msgid "Destination ``pe``."
-msgstr ""
+msgstr "目标 ``pe ``."
 
 #: ../../api/memory_ordering.rst:23
 msgid ""
 "**Description:** This routine ensures order between messages in this "
 "context to follow OpenSHMEM semantics."
-msgstr ""
+msgstr "** 说明：** 该例程确保此上下文中消息的顺序符合 OpenSHMEM 语义。"
 
 #: ../../api/memory_ordering.rst:27
 msgid "ROCSHMEM_QUIET"
-msgstr ""
+msgstr "ROCSHMEM_QUIET"
 
 #: ../../api/memory_ordering.rst:35
 msgid ""
 "**Description:** This routine completes all previous operations posted to"
 " this context."
-msgstr ""
+msgstr "** 说明：** 该例程将完成此前提交到此上下文中的所有操作。"
 
 #: ../../api/memory_ordering.rst:39
 msgid "ROCSHMEM_PE_QUIET"
-msgstr ""
+msgstr "ROCSHMEM_PE_QUIET"
 
 #: ../../api/memory_ordering.rst:45
 msgid "Address of target PE array where the operations need to be completed"
-msgstr ""
+msgstr "需要完成操作的目标 PE 数组的地址"
 
 #: ../../api/memory_ordering.rst:46
 msgid "The number of PEs in the target PE array"
-msgstr ""
+msgstr "目标PE数组中的PE数量"
 
 #: ../../api/memory_ordering.rst:49
 msgid ""
 "**Description:** This routine completes all previous operations posted to"
 " this context for the PEs in the `target_pes` array."
 msgstr ""
+"** 说明：** 此例程将完成此前针对 `target_pes` 数组中的 PE 并提交到此上下文的"
+"所有操作。"
 
 #: ../../api/pt2pt_sync.rst:9
 msgid "Point-to-point synchronization routines"
-msgstr ""
+msgstr "点对点同步例程"
 
 #: ../../api/pt2pt_sync.rst:12
 msgid "ROCSHMEM_WAIT_UNTIL"
-msgstr ""
+msgstr "ROCSHMEM_WAIT_UNTIL"
 
 #: ../../api/pt2pt_sync.rst:16 ../../api/pt2pt_sync.rst:33
 #: ../../api/pt2pt_sync.rst:51 ../../api/pt2pt_sync.rst:70
 #: ../../api/pt2pt_sync.rst:90
 msgid "Pointer to memory on the symmetric heap to wait for."
-msgstr ""
+msgstr "指向对称堆中待处理内存的指针。"
 
 #: ../../api/pt2pt_sync.rst:17 ../../api/pt2pt_sync.rst:36
 #: ../../api/pt2pt_sync.rst:54 ../../api/pt2pt_sync.rst:74
 #: ../../api/pt2pt_sync.rst:91
 msgid "Operation for the comparison."
-msgstr ""
+msgstr "用于比较的操作。"
 
 #: ../../api/pt2pt_sync.rst:18 ../../api/pt2pt_sync.rst:92
 msgid "Value to compare the memory at ``ivars`` to."
-msgstr ""
+msgstr "用于与 ``ivars `` 中的内存值进行比较的数值。"
 
 #: ../../api/pt2pt_sync.rst:21
 msgid ""
 "**Description:** This routine blocks the caller until the condition "
 "``(*ivars cmp val)`` is true."
 msgstr ""
+"** 说明：** 该例程会阻塞调用方，直到条件 ``(*ivars cmp val) `` 为真时才继续执"
+"行。"
 
 #: ../../api/pt2pt_sync.rst:24 ../../api/pt2pt_sync.rst:43
 #: ../../api/pt2pt_sync.rst:61 ../../api/pt2pt_sync.rst:81
 #: ../../api/pt2pt_sync.rst:116
 msgid "Valid ``cmp`` values are listed in :ref:`CMP_VALUES`."
-msgstr ""
+msgstr "有效的 ``cmp `` 值列于 :ref:`CMP_VALUES` 中。"
 
 #: ../../api/pt2pt_sync.rst:26 ../../api/pt2pt_sync.rst:45
 #: ../../api/pt2pt_sync.rst:63 ../../api/pt2pt_sync.rst:83
 msgid ""
 "Valid ``TYPENAME`` and ``TYPE`` values are listed in "
 ":ref:`STANDARD_AMO_TYPES`."
-msgstr ""
+msgstr "有效的 ``TYPENAME `` 和 ``TYPE `` 值列于 :ref:`STANDARD_AMO_TYPES` 中。"
 
 #: ../../api/pt2pt_sync.rst:29
 msgid "ROCSHMEM_WAIT_UNTIL_ALL"
-msgstr ""
+msgstr "ROCSHMEM_WAIT_UNTIL_ALL"
 
 #: ../../api/pt2pt_sync.rst:34 ../../api/pt2pt_sync.rst:52
 #: ../../api/pt2pt_sync.rst:71
 msgid "Number of elements in the ``ivars`` array."
-msgstr ""
+msgstr "`ivars`` 数组中的元素个数。"
 
 #: ../../api/pt2pt_sync.rst:35 ../../api/pt2pt_sync.rst:53
 msgid "Array of length ``nelems`` to exclude elements from the wait."
-msgstr ""
+msgstr "长度为`的数组`nelems ``，用于将这些元素从等待列表中排除。"
 
 #: ../../api/pt2pt_sync.rst:37 ../../api/pt2pt_sync.rst:55
 #: ../../api/pt2pt_sync.rst:75
 msgid "Value to compare."
-msgstr ""
+msgstr "待比较的值。"
 
 #: ../../api/pt2pt_sync.rst:40
 msgid ""
 "**Description:** This routine blocks the caller until the condition "
 "``(ivars[i] cmp val)`` is true for all ``ivars``."
 msgstr ""
+"** 说明：** 该例程会阻塞调用方，直到条件 ``(ivars[i] cmp val) `` 对所有 "
+"``ivars `` 均为真为止。"
 
 #: ../../api/pt2pt_sync.rst:48
 msgid "ROCSHMEM_WAIT_UNTIL_ANY"
-msgstr ""
+msgstr "ROCSHMEM_WAIT_UNTIL_ANY"
 
 #: ../../api/pt2pt_sync.rst:56
 msgid ""
 "The index of an element in the ``ivars`` array that satisfies the wait "
 "condition. If the wait set is empty, this routine returns ``SIZE_MAX``."
 msgstr ""
+"满足等待条件的元素在`ivars`数组中的索引。如果等待集为空，则该例程返"
+"回`SIZE_MAX`。"
 
 #: ../../api/pt2pt_sync.rst:58
 msgid ""
 "**Description:** This routine blocks the caller until any of the "
 "condition ``(ivars[i] cmp val)`` is true."
 msgstr ""
+"** 说明：** 该例程会阻塞调用方，直到以下任一条件为真：``(ivars[i] cmp val) "
+"``。"
 
 #: ../../api/pt2pt_sync.rst:66
 msgid "ROCSHMEM_WAIT_UNTIL_SOME"
-msgstr ""
+msgstr "ROCSHMEM_WAIT_UNTIL_SOME"
 
 #: ../../api/pt2pt_sync.rst:72
 msgid "List of indices with a length of at least ``nelems``."
-msgstr ""
+msgstr "长度至少为`的索引列表`nelems ``。"
 
 #: ../../api/pt2pt_sync.rst:73
 msgid "Array of length ``nelems``  to exclude elements from the wait."
-msgstr ""
+msgstr "长度为`的数组`nelems ``，用于从等待列表中排除这些元素。"
 
 #: ../../api/pt2pt_sync.rst:76
 msgid ""
 "The number of indices returned in the indices array. If the wait set is "
 "empty, this routine returns ``0``."
-msgstr ""
+msgstr "indices数组中返回的索引数量。如果等待集为空，则该例程返回`0``。"
 
 #: ../../api/pt2pt_sync.rst:78
 msgid ""
 "**Description:** This routine blocks the caller until any of the "
 "conditions ``(ivars[i] cmp val)`` is true."
 msgstr ""
+"** 说明：** 该例程会阻塞调用方，直到以下任一条件为真：``(ivars[i] cmp val) "
+"``。"
 
 #: ../../api/pt2pt_sync.rst:86
 msgid "ROCSHMEM_TEST"
-msgstr ""
+msgstr "ROCSHMEM_TEST"
 
 #: ../../api/pt2pt_sync.rst:94
 msgid "``1`` if the evaluation is true. ``0`` otherwise."
-msgstr ""
+msgstr "`1 ``（如果表达式为真）。`0 ``（否则）。"
 
 #: ../../api/pt2pt_sync.rst:96
 msgid ""
 "**Description:** This routine tests if the condition ``(*ivars cmp val)``"
 " is true."
-msgstr ""
+msgstr "** 说明：** 该例程用于测试条件 ``(*ivars cmp val) `` 是否为真。"
 
 #: ../../api/pt2pt_sync.rst:100
 msgid "ROCSHMEM_SIGNAL_WAIT_UNTIL_ON_STREAM"
-msgstr ""
+msgstr "ROCSHMEM_SIGNAL_WAIT_UNTIL_ON_STREAM"
 
 #: ../../api/pt2pt_sync.rst:104
 msgid "Address of the signal variable on the symmetric heap."
-msgstr ""
+msgstr "信号变量在对称堆中的地址。"
 
 #: ../../api/pt2pt_sync.rst:105
 msgid "Comparison operator (e.g., ROCSHMEM_CMP_EQ, ROCSHMEM_CMP_GE, etc.)."
-msgstr ""
+msgstr "比较运算符（例如：ROCSHMEM_CMP_EQ、ROCSHMEM_CMP_GE 等）。"
 
 #: ../../api/pt2pt_sync.rst:106
 msgid "Value to compare against."
-msgstr ""
+msgstr "用于比较的数值。"
 
 #: ../../api/pt2pt_sync.rst:110
 msgid ""
@@ -1647,78 +1760,82 @@ msgid ""
 "``hipStreamSynchronize``) to ensure the wait condition has been "
 "satisfied."
 msgstr ""
+"** 说明：** 该例程将一个等待操作加入 HIP 流的队列。该函数会阻塞调用线程，直到"
+"位于 ``sig_addr `` 的信号变量满足比较条件 ``(*sig_addr cmp cmp_value) `` 为止"
+"。该等待操作将在指定的流上异步执行。调用方必须对流进行同步（例如，使用 "
+"``hipStreamSynchronize ``），以确保等待条件已满足。"
 
 #: ../../api/pt2pt_sync.rst:121
 msgid "Supported comparisons"
-msgstr ""
+msgstr "支持的比较"
 
 #: ../../api/pt2pt_sync.rst:123
 msgid "The following table lists the point-to-point comparison constants:"
-msgstr ""
+msgstr "下表列出了点对点比较常数："
 
 #: ../../api/pt2pt_sync.rst:125
 msgid "Point-to-Point Comparison Constants"
-msgstr ""
+msgstr "点对点比较常数"
 
 #: ../../api/pt2pt_sync.rst:129
 msgid "Constant"
-msgstr ""
+msgstr "常数"
 
 #: ../../api/pt2pt_sync.rst:130 ../../api/sigops.rst:120
 msgid "Description"
-msgstr ""
+msgstr "描述"
 
 #: ../../api/pt2pt_sync.rst:131
 msgid "ROCSHMEM_CMP_EQ"
-msgstr ""
+msgstr "ROCSHMEM_CMP_EQ"
 
 #: ../../api/pt2pt_sync.rst:132
 msgid "Equal"
-msgstr ""
+msgstr "平等"
 
 #: ../../api/pt2pt_sync.rst:133
 msgid "ROCSHMEM_CMP_NE"
-msgstr ""
+msgstr "ROCSHMEM_CMP_NE"
 
 #: ../../api/pt2pt_sync.rst:134
 msgid "Not equal"
-msgstr ""
+msgstr "不等于"
 
 #: ../../api/pt2pt_sync.rst:135
 msgid "ROCSHMEM_CMP_GT"
-msgstr ""
+msgstr "ROCSHMEM_CMP_GT"
 
 #: ../../api/pt2pt_sync.rst:136
 msgid "Greater than"
-msgstr ""
+msgstr "大于"
 
 #: ../../api/pt2pt_sync.rst:137
 msgid "ROCSHMEM_CMP_GE"
-msgstr ""
+msgstr "ROCSHMEM_CMP_GE"
 
 #: ../../api/pt2pt_sync.rst:138
 msgid "Greater than or equal to"
-msgstr ""
+msgstr "大于或等于"
 
 #: ../../api/pt2pt_sync.rst:139
 msgid "ROCSHMEM_CMP_LT"
-msgstr ""
+msgstr "ROCSHMEM_CMP_LT"
 
 #: ../../api/pt2pt_sync.rst:140
 msgid "Less than"
-msgstr ""
+msgstr "小于"
 
 #: ../../api/pt2pt_sync.rst:141
 msgid "ROCSHMEM_CMP_LE"
-msgstr ""
+msgstr "ROCSHMEM_CMP_LE"
 
 #: ../../api/pt2pt_sync.rst:142
 msgid "Less than or equal to"
-msgstr ""
+msgstr "小于或等于"
 
 #: ../../api/rma.rst:9
 msgid "Remote memory access routines"
-msgstr ""
+msgstr "远程内存访问例程"
 
 #: ../../api/rma.rst:11
 msgid ""
@@ -1726,55 +1843,61 @@ msgid ""
 " wavefront and workgroup, respectively, to call the routine with the same"
 " parameters."
 msgstr ""
+"后缀为 ``_wave `` 和 ``_wg `` 的例程，要求波前和工作组中的所有线程分别使用相"
+"同的参数调用该例程。"
 
 #: ../../api/rma.rst:13
 msgid ""
 "Routines with the ``_nbi`` substring will return as soon as the request "
 "is posted."
-msgstr ""
+msgstr "包含子字符串 ```_nbi `` 的例程，将在请求提交后立即返回。"
 
 #: ../../api/rma.rst:14
 msgid ""
 "Routines without the ``_nbi`` substring will block until the operation "
 "completes locally."
-msgstr ""
+msgstr "不包含`_nbi``子字符串的例程将阻塞，直到本地操作完成。"
 
 #: ../../api/rma.rst:15
 msgid "Valid ``TYPENAME`` and ``TYPE`` values can be found in RMA_TYPES_."
-msgstr ""
+msgstr "在 RMA_TYPES_ 中可以找到有效的 ``TYPENAME `` 和 ``TYPE `` 值。"
 
 #: ../../api/rma.rst:18
 msgid "ROCSHMEM_PUT"
-msgstr ""
+msgstr "ROCSHMEM_PUT"
 
 #: ../../api/rma.rst:36 ../../api/rma.rst:124
 msgid "The number of elements to transfer."
-msgstr ""
+msgstr "要传输的元素个数。"
 
 #: ../../api/rma.rst:40
 msgid ""
 "**Description:** This routine writes contiguous data of ``nelems`` "
 "elements from source on the calling PE to ``dest`` at ``pe``."
 msgstr ""
+"** 描述：** 该例程将调用 PE 上的源位置``nelems `` 处的连续数据，写入到 ``pe "
+"`` 处的 ``dest ``。"
 
 #: ../../api/rma.rst:44
 msgid "ROCSHMEM_PUTMEM"
-msgstr ""
+msgstr "ROCSHMEM_PUTMEM"
 
 #: ../../api/rma.rst:62 ../../api/rma.rst:77 ../../api/rma.rst:151
 #: ../../api/rma.rst:166 ../../api/sigops.rst:81
 msgid "Size of the transfer in bytes."
-msgstr ""
+msgstr "传输大小（以字节为单位）。"
 
 #: ../../api/rma.rst:67
 msgid ""
 "**Description:** This routine writes contiguous data of ``nelems`` bytes "
 "from source on the calling PE to ``dest`` at ``pe``."
 msgstr ""
+"** 说明：** 该例程将调用方 PE 上的源位置``nelems `` 字节的连续数据，写入到 "
+"``pe `` 处的 ``dest ``。"
 
 #: ../../api/rma.rst:71
 msgid "ROCSHMEM_PUTMEM_ON_STREAM"
-msgstr ""
+msgstr "ROCSHMEM_PUTMEM_ON_STREAM"
 
 #: ../../api/rma.rst:83
 msgid ""
@@ -1785,48 +1908,56 @@ msgid ""
 " synchronize the stream (e.g., using ``hipStreamSynchronize``) to ensure "
 "completion."
 msgstr ""
+"** 描述：** 该例程将一个 putmem RMA 操作加入 HIP 流的队列。该函数将调用方 PE "
+"上的源地址处连续的 ``nelems `` 字节数据，写入 ``pe `` 处的 ``dest ``。该操作"
+"被加入指定流的队列，并将异步执行。调用方必须同步该流（例如，使用 "
+"``hipStreamSynchronize ``），以确保操作完成。"
 
 #: ../../api/rma.rst:90
 msgid "ROCSHMEM_P"
-msgstr ""
+msgstr "ROCSHMEM_P"
 
 #: ../../api/rma.rst:97
 msgid "Value to write to ``dest`` at ``pe``."
-msgstr ""
+msgstr "要写入的值为 ``dest `` 位于 ``pe ``。"
 
 #: ../../api/rma.rst:102
 msgid ""
 "**Description:** This routine writes a single value to to ``dest`` at "
 "``pe``."
-msgstr ""
+msgstr "** 说明：** 该例程将单个值写入 ``dest `` 中的 ``pe ``。"
 
 #: ../../api/rma.rst:106
 msgid "ROCSHMEM_GET"
-msgstr ""
+msgstr "ROCSHMEM_GET"
 
 #: ../../api/rma.rst:122
 msgid "Destination address; Must be an address on the symmetric heap."
-msgstr ""
+msgstr "目标地址；必须是对称堆上的一个地址。"
 
 #: ../../api/rma.rst:129
 msgid ""
 "**Description:** This routine reads contiguous data of ``nelems`` "
 "elements from source on ``pe`` to ``dest`` on the calling PE."
 msgstr ""
+"** 描述：** 该例程从源地址 ``pe `` 读取连续数据，数据大小为 ``nelems `` 个元"
+"素，并将数据复制到调用 PE 上的 ``dest ``。"
 
 #: ../../api/rma.rst:133
 msgid "ROCSHMEM_GETMEM"
-msgstr ""
+msgstr "ROCSHMEM_GETMEM"
 
 #: ../../api/rma.rst:156
 msgid ""
 "**Description:** This routine reads contiguous data of ``nelems`` bytes "
 "from source on ``pe`` to ``dest`` on the calling PE."
 msgstr ""
+"** 描述：** 该例程从源地址 ``pe `` 读取连续的 ``nelems `` 字节数据，并将数据"
+"写入调用 PE 上的 ``dest ``。"
 
 #: ../../api/rma.rst:160
 msgid "ROCSHMEM_GETMEM_ON_STREAM"
-msgstr ""
+msgstr "ROCSHMEM_GETMEM_ON_STREAM"
 
 #: ../../api/rma.rst:172
 msgid ""
@@ -1837,56 +1968,60 @@ msgid ""
 " synchronize the stream (e.g., using ``hipStreamSynchronize``) to ensure "
 "completion."
 msgstr ""
+"** 描述：**该例程将一个 getmem RMA 操作加入 HIP 流的队列。该函数从源地址 "
+"``pe `` 读取连续数据，数据大小为 ``nelems `` 字节，并将数据写入调用方 PE 上"
+"的 ``dest ``。 该操作将被加入指定流的队列，并以异步方式执行。调用方必须对该流"
+"进行同步（例如，使用 ``hipStreamSynchronize ``），以确保操作完成。"
 
 #: ../../api/rma.rst:179
 msgid "ROCSHMEM_G"
-msgstr ""
+msgstr "ROCSHMEM_G"
 
 #: ../../api/rma.rst:187
 msgid "The value read from source at ``pe``."
-msgstr ""
+msgstr "从源地址 ``pe `` 读取的值。"
 
 #: ../../api/rma.rst:189
 msgid ""
 "**Description:** This routine reads and returns single value from source "
 "at ``pe``."
-msgstr ""
+msgstr "** 描述：** 该例程从源地址 ``pe `` 读取并返回单个值。"
 
 #: ../../api/rma.rst:193
 msgid "Supported RMA data types"
-msgstr ""
+msgstr "支持的 RMA 数据类型"
 
 #: ../../api/rma.rst:195
 msgid "The following table lists the supported RMA data types:"
-msgstr ""
+msgstr "下表列出了支持的 RMA 数据类型："
 
 #: ../../api/rma.rst:199
 msgid "RMA Data Types"
-msgstr ""
+msgstr "RMA 数据类型"
 
 #: ../../api/sigops.rst:9
 msgid "Signaling operations"
-msgstr ""
+msgstr "信号操作"
 
 #: ../../api/sigops.rst:12
 msgid "ROCSHMEM_PUTMEM_SIGNAL"
-msgstr ""
+msgstr "ROCSHMEM_PUTMEM_SIGNAL"
 
 #: ../../api/sigops.rst:30
 msgid "The number of bytes to transfer."
-msgstr ""
+msgstr "要传输的字节数。"
 
 #: ../../api/sigops.rst:31 ../../api/sigops.rst:62 ../../api/sigops.rst:105
 msgid "Signal address. Must be an address on the symmetric heap."
-msgstr ""
+msgstr "信号地址。必须是对称堆上的一个地址。"
 
 #: ../../api/sigops.rst:32 ../../api/sigops.rst:63
 msgid "Signal value."
-msgstr ""
+msgstr "信号值。"
 
 #: ../../api/sigops.rst:33 ../../api/sigops.rst:64
 msgid "Atomic operation to apply the signal value."
-msgstr ""
+msgstr "用于应用信号值的原子操作。"
 
 #: ../../api/sigops.rst:37
 msgid ""
@@ -1895,14 +2030,17 @@ msgid ""
 "``sig_op`` at ``sig_addr`` with the signal value. Valid ``sig_op values``"
 " are listed in SIGNAL_OPERATORS_."
 msgstr ""
+"** 说明：** 该函数将调用 PE 上的源位置 ``nelems `` 处的连续数据写入 ``dest "
+"`` 位置（位于 ``pe ``），然后将信号值应用于 ``sig_op `` 位置（位于 "
+"``sig_addr ``）。有效的 ``sig_op values `` 已列于 SIGNAL_OPERATORS_ 中。"
 
 #: ../../api/sigops.rst:43
 msgid "ROCSHMEM_PUT_SIGNAL"
-msgstr ""
+msgstr "ROCSHMEM_PUT_SIGNAL"
 
 #: ../../api/sigops.rst:61
 msgid "The number of elements of size ``TYPE`` to transfer."
-msgstr ""
+msgstr "要传输的元素个数，其大小分别为 ``TYPE ``。"
 
 #: ../../api/sigops.rst:68
 msgid ""
@@ -1912,38 +2050,42 @@ msgid ""
 "``sig_op values`` are listed in SIGNAL_OPERATORS_. Valid ``TYPENAME`` and"
 " ``TYPE`` values are listed in :ref:`RMA_TYPES`."
 msgstr ""
+"** 说明：** 该函数将源PE中源数据``nelems ``的连续数据（包含``TYPE ``个元素）"
+"写入``dest ``位于``pe ``处，随后在``sig_addr ``处应用``sig_op ``，并使用信号"
+"值进行计算。有效的``sig_op values ``列于SIGNAL_OPERATORS_中。有效"
+"的``TYPENAME ``和``TYPE ``值列于:ref:`RMA_TYPES`中。"
 
 #: ../../api/sigops.rst:75
 msgid "ROCSHMEM_PUTMEM_SIGNAL_ON_STREAM"
-msgstr ""
+msgstr "ROCSHMEM_PUTMEM_SIGNAL_ON_STREAM"
 
 #: ../../api/sigops.rst:79
 msgid ""
 "Destination address on the remote PE. Must be an address on the symmetric"
 " heap."
-msgstr ""
+msgstr "远程 PE 上的目标地址。必须是对称堆中的一个地址。"
 
 #: ../../api/sigops.rst:80
 msgid "Source address on the local PE. Must be an address on the symmetric heap."
-msgstr ""
+msgstr "本地 PE 上的源地址。必须是对称堆上的一个地址。"
 
 #: ../../api/sigops.rst:82
 msgid ""
 "Address of signal variable on the remote PE. Must be an address on the "
 "symmetric heap."
-msgstr ""
+msgstr "远程 PE 上信号变量的地址。必须是对称堆上的一个地址。"
 
 #: ../../api/sigops.rst:83
 msgid "Signal value to be written."
-msgstr ""
+msgstr "待写入的信号值。"
 
 #: ../../api/sigops.rst:84
 msgid "Signal operation (ROCSHMEM_SIGNAL_SET or ROCSHMEM_SIGNAL_ADD)."
-msgstr ""
+msgstr "信号操作（ROCSHMEM_SIGNAL_SET 或 ROCSHMEM_SIGNAL_ADD）。"
 
 #: ../../api/sigops.rst:85
 msgid "PE number of the remote PE."
-msgstr ""
+msgstr "远程 PE 的 PE 编号。"
 
 #: ../../api/sigops.rst:89
 msgid ""
@@ -1955,104 +2097,109 @@ msgid ""
 "synchronize the stream (e.g., using ``hipStreamSynchronize``) to ensure "
 "completion."
 msgstr ""
+"** 描述：**该例程将一个“带信号的写入”操作加入 HIP 流的队列。该函数将调用方 "
+"PE 上的源位置 ``nelems `` 处的连续数据，写入至 ``dest `` 位置（位于 ``pe ``）"
+"，随后在 ``sig_addr `` 位置应用 ``sig_op `` 操作，并附带信号值。 该操作将被加"
+"入指定流的队列，并异步执行。调用方必须对流进行同步（例如，使用 "
+"``hipStreamSynchronize ``），以确保操作完成。"
 
 #: ../../api/sigops.rst:96
 msgid "Valid ``sig_op`` values are listed in SIGNAL_OPERATORS_."
-msgstr ""
+msgstr "有效的 ``sig_op `` 值列于 SIGNAL_OPERATORS_ 中。"
 
 #: ../../api/sigops.rst:99
 msgid "ROCSHMEM_SIGNAL_FETCH"
-msgstr ""
+msgstr "ROCSHMEM_SIGNAL_FETCH"
 
 #: ../../api/sigops.rst:106
 msgid "Value at ``sig_addr``."
-msgstr ""
+msgstr "``sig_addr `` 中的值。"
 
 #: ../../api/sigops.rst:108
 msgid ""
 "**Description:** This function atomically fetches the value stored at "
 "``sig_addr``."
-msgstr ""
+msgstr "** 描述：** 该函数以原子方式获取存储在 ``sig_addr `` 处的值。"
 
 #: ../../api/sigops.rst:112
 msgid "Signal operators"
-msgstr ""
+msgstr "信号运算符"
 
 #: ../../api/sigops.rst:115
 msgid "Signal Operators"
-msgstr ""
+msgstr "信号运算符"
 
 #: ../../api/sigops.rst:119
 msgid "Value"
-msgstr ""
+msgstr "值"
 
 #: ../../api/sigops.rst:121
 msgid "ROCSHMEM_SIGNAL_SET"
-msgstr ""
+msgstr "ROCSHMEM_SIGNAL_SET"
 
 #: ../../api/sigops.rst:122
 msgid ""
 "The signaling operation routines will atomically set the signal value at "
 "``sig_addr``."
-msgstr ""
+msgstr "信号操作例程将以原子方式将信号值设置为``sig_addr ``。"
 
 #: ../../api/sigops.rst:123
 msgid "ROCSHMEM_SIGNAL_ADD"
-msgstr ""
+msgstr "ROCSHMEM_SIGNAL_ADD"
 
 #: ../../api/sigops.rst:124
 msgid ""
 "The signaling operation routines will atomically add the signal value at "
 "``sig_addr``."
-msgstr ""
+msgstr "信号操作例程将以原子方式将信号值添加到 ``sig_addr ``。"
 
 #: ../../api/teams.rst:9
 msgid "Team management routines"
-msgstr ""
+msgstr "团队管理流程"
 
 #: ../../api/teams.rst:12
 msgid "ROCSHMEM_TEAM_MY_PE"
-msgstr ""
+msgstr "ROCSHMEM_TEAM_MY_PE"
 
 #: ../../api/teams.rst:16 ../../api/teams.rst:27
 msgid "The team to query."
-msgstr ""
+msgstr "要查询的团队。"
 
 #: ../../api/teams.rst:17
 msgid "PE ID of the caller in the provided team."
-msgstr ""
+msgstr "该团队中呼叫方的 PE ID。"
 
 #: ../../api/teams.rst:19
 msgid "**Description:** This routine queries the PE ID of the caller in a team."
-msgstr ""
+msgstr "** 说明：** 该例程用于查询团队中调用者的 PE ID。"
 
 #: ../../api/teams.rst:23
 msgid "ROCSHMEM_TEAM_N_PES"
-msgstr ""
+msgstr "ROCSHMEM_TEAM_N_PES"
 
 #: ../../api/teams.rst:28
 msgid "Number of PEs in the provided team."
-msgstr ""
+msgstr "所提供团队中的PE人数。"
 
 #: ../../api/teams.rst:30
 msgid "**Description:** This routine queries the number of PEs in a team."
-msgstr ""
+msgstr "** 说明：** 该例程用于查询团队中的 PE 数量。"
 
 #: ../../api/teams.rst:34
 msgid "ROCSHMEM_TEAM_TRANSLATE_PE"
-msgstr ""
+msgstr "ROCSHMEM_TEAM_TRANSLATE_PE"
 
 #: ../../api/teams.rst:38
 msgid "Handle of the team from which to translate."
-msgstr ""
+msgstr "源团队的标识符。"
 
 #: ../../api/teams.rst:39
 msgid "PE-of-interest's index in ``src_team``."
-msgstr ""
+msgstr "``src_team `` 中“PE-of-interest”的指数。"
 
 #: ../../api/teams.rst:40
 msgid "Handle of the team to which to translate."
-msgstr ""
+msgstr "要翻译到的团队的标识符。"
 
 #: ../../api/teams.rst:41
 msgid ""
@@ -2060,44 +2207,46 @@ msgid ""
 "``src_pe`` is not in both source and destination teams, a value of ``-1``"
 " is returned."
 msgstr ""
+"`src_pe ` 的 PE 位于 `dest_team ` 中。如果任何输入无效，或者 `src_pe ` 既不在"
+"源团队中也不在目标团队中，则返回 `-1 ` 的值。"
 
 #: ../../api/teams.rst:45
 msgid ""
 "**Description:** This routine translates the PE in ``src_team`` to that "
 "in ``dest_team``."
-msgstr ""
+msgstr "** 说明：** 该例程将 ``src_team `` 中的 PE 转换为 ``dest_team `` 中的 PE。"
 
 #: ../../api/teams.rst:49
 msgid "ROCSHMEM_TEAM_SPLIT_STRIDED"
-msgstr ""
+msgstr "ROCSHMEM_TEAM_SPLIT_STRIDED"
 
 #: ../../api/teams.rst:53
 msgid "The team to split from."
-msgstr ""
+msgstr "要脱离的团队。"
 
 #: ../../api/teams.rst:54
 msgid ""
 "The lowest PE number of the subset of the PEs from the parent team that "
 "will form the new team."
-msgstr ""
+msgstr "将组成新团队的母团队中PE子集的最低PE数值。"
 
 #: ../../api/teams.rst:57
 msgid ""
 "The stride between team PE members in the parent team that comprise the "
 "subset of PEs that will form the new team."
-msgstr ""
+msgstr "母团队中那些将组成新团队的PE子集的成员之间的步幅。"
 
 #: ../../api/teams.rst:60
 msgid "The number of PEs in the new team."
-msgstr ""
+msgstr "新团队中的私募股权基金数量。"
 
 #: ../../api/teams.rst:61
 msgid "Pointer to the config parameters for the new team."
-msgstr ""
+msgstr "新团队配置参数的参考指南。"
 
 #: ../../api/teams.rst:62
 msgid "Bitwise mask representing parameters to use from config."
-msgstr ""
+msgstr "表示从配置中使用的参数的位掩码。"
 
 #: ../../api/teams.rst:63
 msgid ""
@@ -2105,20 +2254,24 @@ msgid ""
 "creation, or if the PE in the parent team is not in the new team, the "
 "value will be ``ROCSHMEM_TEAM_INVALID``."
 msgstr ""
+"指向新创建的团队的指针。如果在创建团队时发生错误，或者父团队中的 PE 未包含在"
+"新团队中，则该值将为`ROCSHMEM_TEAM_INVALID ``。"
 
 #: ../../api/teams.rst:68
 msgid "Zero upon successful team creation; non-zero if erroneous."
-msgstr ""
+msgstr "创建团队成功时返回 0；若出现错误则返回非零值。"
 
 #: ../../api/teams.rst:70
 msgid ""
 "**Description:** This routine creates a new a team of PEs. It must be "
 "called by all PEs in the parent team."
 msgstr ""
+"** 说明：** 该例程用于创建一个新的 PE 团队。父团队中的所有 PE 都必须调用该例"
+"程。"
 
 #: ../../api/teams.rst:74
 msgid "ROCSHMEM_TEAM_DESTROY"
-msgstr ""
+msgstr "ROCSHMEM_TEAM_DESTROY"
 
 #: ../../api/teams.rst:78
 msgid ""
@@ -2126,6 +2279,9 @@ msgid ""
 "``ROCSHMEM_TEAM_WORLD`` or any other invalid team. If the input is "
 "``ROCSHMEM_TEAM_INVALID``, this function will not perform any operation."
 msgstr ""
+"待销毁的团队。如果输入的团队为 ``ROCSHMEM_TEAM_WORLD `` 或任何其他无效团队，"
+"则行为未定义。如果输入为 ``ROCSHMEM_TEAM_INVALID ``，则该函数不会执行任何操作"
+"。"
 
 #: ../../api/teams.rst:85
 msgid ""
@@ -2135,4 +2291,6 @@ msgid ""
 "This call will destroy only the shareable contexts created from the "
 "referenced team."
 msgstr ""
-
+"** 说明：** 此例程用于销毁一个团队。团队中的所有 PE 都必须调用此例程。在销毁"
+"该团队之前，必须先销毁该团队中创建的所有私有上下文。否则，行为将未定义。此调"
+"用仅会销毁由所引用的团队创建的可共享上下文。"
